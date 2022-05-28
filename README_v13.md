@@ -1,13 +1,5 @@
 # Yamagishi Live-Ation VFX（実写VFX） Overview
-
-- Web : [Vook : 実写系VFXワークフロー概要](https://vook.vc/n/4447)
-- GitHub : https://github.com/YamagishiVFX/VFX_Summary
-
 ### 更新：
-v14
-- 一部編集
-- GitHubにデータアップロード
-
 v13 2022/05/28
 - 「USD」編集
 - 一部編集、追記
@@ -192,7 +184,7 @@ v10 2022/05/25
 * 映像史
     * 映画史
         <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-        「観ておいた方がいい」とかそういう類のものではない。今なぜそうなっているのか？という背景を知ったりするもの。過去に既に通り過ぎたものかもしれないし、新しい視点で振り返る事で新たな発見や可能性に気付けるものもあるかも。将棋の世界では、過去に使えないと廃れた戦法が、コンピュータの発達などによりあたらしい視点で見返してみたら復活した戦法がいくつもあったり。
+        「観ておいた方がいい」とかそういう類のものではないです。今なぜそうなっているのか？という背景を知るもの。過去に既に通り過ぎたものかもしれないし、新しい視点で振り返る事で新たな発見や可能性に気付けるものもあるかも。将棋の世界では、過去に使えないと廃れた戦法が、コンピュータの発達により見返してみたら復活した戦法がいくつもあったり。
         </div>
 
         * 一般
@@ -226,7 +218,6 @@ v10 2022/05/25
             * ヒノキオ
             * 海猿2
               * 恐らく国内で初めてレイトレースでVFXが作られた作品
-            * 三丁目の夕日
             * 宇宙兄弟
               * 恐らく国内で初めてシーンリニアワークフローでVFXが作られた作品
         * タイトルバック
@@ -304,16 +295,12 @@ v10 2022/05/25
     * 口径幅と焦点距離
     * 画角の計算
     * レンズ
-        * [ZEISS eXtended Data](https://www.zeiss.co.jp/consumer-products/cinematography/content/extended-data.html?fbclid=IwAR1jw3QV1iYRQPem6V99jrLqazsZp7exvWi5vwkNqh8wl2NrnK51VoBUpec)
     * 被写界深度
-        * 被写界深度とセンサーサイズ、F値
         * [DOF Simulator](https://dofsimulator.net/en/)
         * [UE4:Cinematic Depth of Field Method](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/DepthOfField/CinematicDOFMethods/)
         * [Richard Rosenman: DOF PRO](https://richardrosenman.com/shop/dof-pro-ae/)
     * モーションブラー
     *  一眼レフカメラ
-    *  [入射瞳：Entrance pupil](https://www.cybernet.co.jp/optical/course/word/n01.html)
-       *   
 
 * 情報処理（コンピュータ、データ）
 * 数学
@@ -335,20 +322,15 @@ v10 2022/05/25
         * [文部科学省：行列入門](https://www.mext.go.jp/content/20210525-mxt_kyoiku01-000009442_1_1.pdf)
     * 四元数：クォータニオン
         * [YouTube : Unity Japan【Unity道場 博多スペシャル 2017】クォータニオン完全マスター](https://www.youtube.com/watch?v=uKWLPU8gfIY)
-    * 資料など
-        * [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-book)
-        * [数学を知ればゲーム制作の幅が広がるUnity社エンジニアが解説するグラフの意味とゲームへの応用](https://logmi.jp/tech/articles/326426)
-        * [Nuke Expression 101](http://www.nukepedia.com/written-tutorials/expressions-101)
-        * [CAMERON CARSON :  NUKE WAVE EXPRESSIONS](https://www.cameroncarson.com/nuke-wave-expressions?fbclid=IwAR3FTMxQitt-2zL2jY4TBKIcb03K70uZTvNJQxlnrAaR-yACYftCnUacnGQ)
 * 物理
     * 単位：
         * 明るさの基本単位 = カンデラ：cd
             <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;"> 7つのSI基本単位の中の明るさの（心理）物理量。色、光に特に関りが強い僕たちは知っておかないとダメだと思われる奴。義務教育で扱って欲しい。これを基準にした組単位にニット、ルクス、ルーメンなどがある。これも個人的には「テストに出ます」レベルのもの。特にライティングに関わる人は知っておいて損はない知識だと思う。
             </div>
 * アルゴリズム
-
-    Houdini、Nuke、Fuison、Blender(Geometry Node) など、一部ツールではワークフローの実装がしやすいツールではアルゴリズムを使ってワークフローが組みやすくアルゴリズムを知っておくと便利な事があるらしい。
-
+<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
+Houdini、Nuke、Fuison、Blender(Geometry Node) など、一部ツールではワークフローの実装がしやすいツールではアルゴリズムを使ってワークフローが組みやすくアルゴリズムを知っておくと便利な事があるらしい。
+</div>
 
   * [50分で学ぶアルゴリズム / Algorithms in 50 minutes](https://speakerdeck.com/e869120/algorithms-in-50-minutes)
   * 代表的なアルゴリズム
@@ -356,7 +338,6 @@ v10 2022/05/25
     * パーリンノイズ
     * ボイズ：Boids
         * [Qiita: Boids アルゴリズムで鳥の群れを作ってみた](https://qiita.com/kure/items/2638de370974a791756a)
-  * メガデモ
 * 現代における映像のVFX
     * 世界、日本
 
@@ -703,10 +684,6 @@ etc.
     * 参考        
         * レイトレースの仕組みについては[「VRay：Antialiasing for Shading Effects」](https://docs.chaos.com/display/CWVRAY3MAYA/Antialiasing+for+Shading+Effects)が詳しい
         * ノイズを除去するためのワークフローは[「Arnold：Removing Noise Workflow」](https://docs.arnoldrenderer.com/display/A5ARP/Removing+Noise+Workflow)が参考になる。各レンダラー毎にレイの呼び方とかは異なるが、現在のパストレーサーはほとんど同じような仕組みだと思う。
-    * プログラム
-        * レイトレース（パストレース）を理解したい場合、自分でプログラムしてみるのが一番
-            * [はじめようレイトレーシング](https://raytracing.xyz/)
-            * [関連：はじめようレイトレーシングをPythonで写経](https://yamagishi-2bit.blogspot.com/2021/12/httpsraytracing.html)
     * 物理ベース
         * [Physically Based Lighting at Pixar](https://graphics.pixar.com/library/PhysicallyBasedLighting/paper.pdf)
         * [metasequoia4 : 物理ベースレンダリング(1) 概要とglTF](https://www.metaseq.net/jp/archives/2172/)
@@ -1137,7 +1114,6 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
             * クラウド上で動くGoogleのColaboratoryというサービスもある。
         * [python初心者用 基礎演習100本ノック](https://zenn.dev/pell/books/a84eed48e73a6e)
         * [画像処理100本ノック!!](https://github.com/yoyoyo-yo/Gasyori100knock)
-        
     * Processing
 ### Git
 * Gitの使い方
