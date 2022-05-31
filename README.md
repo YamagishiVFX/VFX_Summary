@@ -5,7 +5,7 @@
 
 ### 更新：
 v14
-- 一部編集
+- 一部編集、追記
 - GitHubにデータアップロード
 
 v13 2022/05/28
@@ -192,7 +192,7 @@ v10 2022/05/25
 * 映像史
     * 映画史
         <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-        「観ておいた方がいい」とかそういう類のものではない。今なぜそうなっているのか？という背景を知ったりするもの。過去に既に通り過ぎたものかもしれないし、新しい視点で振り返る事で新たな発見や可能性に気付けるものもあるかも。将棋の世界では、過去に使えないと廃れた戦法が、コンピュータの発達などによりあたらしい視点で見返してみたら復活した戦法がいくつもあったり。
+        「観ておいた方がいい」とかそういう類のものではない。今なぜそうなっているのか？という背景を知ったりするもの。過去に既に通り過ぎたものかもしれないし、新しい視点で振り返る事で新たな発見や可能性に気付けるものもあるかも。将棋の世界では、過去に使えないと廃れた戦法が、コンピュータの発達などによりあたらしい視点で見返してみたら復活した戦法がいくつもあったり。 打合せなどで名前が挙がる事があるので、観る必要が出た時に観る程度でいいと思う。<br>「VFXの勉強になるか？」という点においても、何かしら学ぶところはあるとは思うが返答が難しい。
         </div>
 
         * 一般
@@ -212,7 +212,7 @@ v10 2022/05/25
             * タイタニック: Digital Domain
             * スターウォーズ EP1 : ILM
             * マトリックス
-            * ファイナルファンタジー
+            * ファイナルファンタジー(2001)
             * ロード・オブ・ザ・リング：Weta　Digital
             * アバター(2009)
             * 第9地区 (2009)
@@ -222,13 +222,22 @@ v10 2022/05/25
             * アベンジャーズシリーズ
 
         * 国内
-            * ジュブナイル
-            * ヒノキオ
+            * ゴジラ
+            * 幻魔大戦(1983)
+            * さよならジュピター(1984)
+            * NIGHT HEAD(1994)
+            * ジュブナイル(2000)
+            * ヒノキオ(2004)
+              * ファイナルファンタジーに関わったVFXスタッフが多く参加している。VFXは今は解散してしまったカシオエンターテイメント。VFXのクォリティは非常に高い。
             * 海猿2
-              * 恐らく国内で初めてレイトレースでVFXが作られた作品
+              * おそらく国内のVFXでレイトレースが本格的にが作られた作品
             * 三丁目の夕日
             * 宇宙兄弟
               * 恐らく国内で初めてシーンリニアワークフローでVFXが作られた作品
+            * ソニック：Marza
+            * いぬやしき：Digital Frontire
+            * シン・ゴジラ：白組
+            * シン・ウルトラマン：白組
         * タイトルバック
             * ソウル・バス
             * カイル・クーパー
@@ -292,6 +301,8 @@ v10 2022/05/25
 * カメラ
     * 参考
         * [FUJIFILM：film 101(英語：フィルムやカメラに関して基礎知識)](https://www.ishootfujifilm.com/film-101/articles)
+    * 一眼レフカメラ
+        * Canon、Nikon、Panasonic、Sony
     * 一般的なムービーカメラ
         * GoPro、AJA
     * シネマカメラ
@@ -305,17 +316,19 @@ v10 2022/05/25
     * 画角の計算
     * レンズ
         * [ZEISS eXtended Data](https://www.zeiss.co.jp/consumer-products/cinematography/content/extended-data.html?fbclid=IwAR1jw3QV1iYRQPem6V99jrLqazsZp7exvWi5vwkNqh8wl2NrnK51VoBUpec)
+
     * 被写界深度
         * 被写界深度とセンサーサイズ、F値
         * [DOF Simulator](https://dofsimulator.net/en/)
         * [UE4:Cinematic Depth of Field Method](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/DepthOfField/CinematicDOFMethods/)
         * [Richard Rosenman: DOF PRO](https://richardrosenman.com/shop/dof-pro-ae/)
     * モーションブラー
-    *  一眼レフカメラ
+    * レンズディストーション
     *  [入射瞳：Entrance pupil](https://www.cybernet.co.jp/optical/course/word/n01.html)
        *   
 
 * 情報処理（コンピュータ、データ）
+    * データサイエンス
 * 数学
     * 単位等：Unit
         * ラジアン r（弧度法）：国際単位系
@@ -343,7 +356,7 @@ v10 2022/05/25
 * 物理
     * 単位：
         * 明るさの基本単位 = カンデラ：cd
-            <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;"> 7つのSI基本単位の中の明るさの（心理）物理量。色、光に特に関りが強い僕たちは知っておかないとダメだと思われる奴。義務教育で扱って欲しい。これを基準にした組単位にニット、ルクス、ルーメンなどがある。これも個人的には「テストに出ます」レベルのもの。特にライティングに関わる人は知っておいて損はない知識だと思う。
+            <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;"> SI単位なのに学校では習わない。7つのSI基本単位の中の明るさの（心理）物理量。色、光に特に関りが強い僕たちは知っておかないとダメだと思われる奴。これを基準にした組単位にニット、ルクス、ルーメンなどがある。これも個人的には「テストに出ます」レベルのもの。特にライティングに関わる人は知っておいて損はない知識だと思う。
             </div>
 * アルゴリズム
 
@@ -510,22 +523,22 @@ etc.
   * 解像度：Image format Resolution
   * FPS : Frame per second
   * カラースペース：Colorspace
-  * ID, Code
+  * ID, Code：識別子
     * Client Code
     * Vender Code
-    * Project(Shot) Code
+    * Project(Show) Code
     * Episode Code
     * Sequence Code
     * Shot Code
     * Vesion Number
     * YYYYMMDD
 
-### VFX用素材の命名規則ガイドライン
+### VFX用素材に関するガイドライン
 * [VES Transfer Specifications](https://vestransferspec.org/)
 * [ETC - VFX Image Sequence Naming](https://www.etcentric.org/etc-publishes-specification-for-naming-vfx-image-sequences/)
 
 ### 主な仕様書
-なんとなく、仕様書が出来上がってく順。仕様書は撮影開始（クランクイン）までに各部署間で共有されている事が好ましい。
+なんとなく、仕様が出来上がってく順。仕様は**撮影開始（クランクイン）までに各部署間で共有**されている事が好ましいとされている。
 
 
 1. 作品仕様書
@@ -544,6 +557,12 @@ etc.
     * 記録するものなど
 * オンセットガイドライン
     * 撮影立ち合い：服装、持ち物など。記録するもの。
+        * 養生テープ
+        * メジャー
+        * カラーチャート
+        * スマホ、iPad、ノートPC等
+    * CGリファレンス撮影ガイドライン
+        * カラーチャート、ミラーボール、グレーボール
     * HDRI撮影ガイドライン
         * [fxguid：The Definitive Weta Digital Guide to IBL](https://www.fxguide.com/fxfeatured/the-definitive-weta-digital-guide-to-ibl/)
           * あのWeta DigitalによるIBL撮影ガイドライン。神資料。
@@ -610,7 +629,7 @@ etc.
     * モーションキャプチャ
     * フォトグラメトリ
     * ドローン
-    * インカメラVFX
+    * インカメラVFX（ICVFX）
     * バーチャルプロダクション
 
 ## ポスプロ：Post-Production
@@ -622,6 +641,11 @@ etc.
 ![](https://i.gyazo.com/89509be813f8351dce52bde3d86d0b7e.png)
 
 ### 編集：Edit
+* Avid
+* Final Cut Pro
+* Premire Pro
+* DaVinci Resolve
+
 ### VFX：Computer-generated(CG)
 * ニュートラルグレード
 * アンディストーション、リディストーション 
@@ -666,6 +690,7 @@ etc.
     * インターレース
     * カラースペース
     * オーディオ
+    * アスペクト比
 
 ## 3DCG
 ### モデリング
@@ -676,9 +701,10 @@ etc.
     * [ポリゴン分割するのに便利な画像集めました。](https://www.photoshop777.com/post-5774/)
 * [YouTube : Smooth Shading](https://www.youtube.com/watch?v=PMgjVJogIbc)
 * OpenSubdivision
-    * [Pixar OpenSubdiv(英語)](https://graphics.pixar.com/opensubdiv/docs/intro.html)
-    * [ピクサーのOpenSubdivほか、サブディビジョンサーフェス技術の系譜を探る](https://cgworld.jp/feature/201511-tremdsofsubdiv.html)
     * [YouTube : Subdivision Surfaces: Artifacts](https://www.youtube.com/watch?v=k_S1INdEmdI&list=PLYURcfRkTI5XxXw4NixOb4gG02iHFbJr4&index=2)
+
+### テクニック：
+- プロジェクション（カメラマップ）
 
 ### Shader
 * Shader Language
@@ -689,7 +715,7 @@ etc.
 * Material
   * Lambert、Blin、GGX
   * Micro facet
-  * Diffuse、Specular、Reflaction(Transmisison)
+  * Diffuse、Specular、Refraction(Transmissison)
   * Emission
   * Subsurface Scattaring
   * Round Corner
@@ -722,7 +748,7 @@ etc.
     * [Spectral Imaging in Production：Course Notes Siggraph 2021](https://jo.dreggn.org/home/2021_spectral_imaging.pdf)
     * [memoRANDOM ：スペクト羅うレンダリング](https://rayspace.xyz/CG/contents/spectral_rendering/)
     * 分光特性と3DCGのRGBレンダリング
-        * 反射、屈折、蛍光、偏光、複屈折、条件等色、レイリー散乱、 ミー散乱
+        * 反射、屈折、蛍光、偏光、複屈折、条件等色、レイリー散乱、ミー散乱、アッベ数
 ## AI
 * NVIDIA Canvas
 * Deep Fake
@@ -760,8 +786,12 @@ etc.
 ### トラッキング
 ### レイアウト
 ### アニメーション
+
 ### エンバイロメント（マットペイント）
 ひと昔のマットペイントは2Dの絵画のようなイメージだったが、近年は「エンバイロメント：Environment」等と呼ばれ、3DCGなども駆使した **ほぼジェネラリスト** な作業内容となっている。「背景」などを扱うため、エンバイロメントは **地味** な印象もあるかもしれないが、実写映画では時には主役級のルックを作成する事もあり、花形の仕事だと個人的には思います。貢献度も高い役職の１つです。
+
+- [Mattepainter - Blender上でのフォトバッシュ＆マットペイントワークフローを大幅改善してくれるアドオンが登場！](https://3dnchu.com/archives/mattepainter-b3d/)
+- [Part 1. Blockout: Medieval Game Environment in UE4](https://www.youtube.com/watch?v=4CRm3GAgAx4)
 
 ### FX
 ### 群衆
@@ -794,12 +824,12 @@ etc.
     * 除算
 * CGのコンポジット：[PIXAR : The Grand Tour: Compositing ](https://renderman.pixar.com/the-grand-tour-compositing)
     * PixarによるフルCGのコンポジットに関する素晴らしいまとめ。
-    * NukeとFusionのサンプルファイルもあり
+    * NukeとFusionのプロジェクトファイルもあり
 * Keying
     * [fxguid : Art of Keying](https://www.fxguide.com/fxfeatured/art_of_keying/)
     * [Compoiste Mentor : Advanced Keying Breakdown](https://compositingmentor.com/category/advanced-keying-breakdown/)
     * ディスピル
-        * [ディスピルのテクニックを使った色の置き換え](https://yamagishi-2bit.blogspot.com/2021/12/nuke-despill-vfx.html?q=%E3%83%87%E3%82%A3%E3%82%B9%E3%83%94%E3%83%AB)
+        * [関連：ディスピルのテクニックを使った色の置き換え](https://yamagishi-2bit.blogspot.com/2021/12/nuke-despill-vfx.html?q=%E3%83%87%E3%82%A3%E3%82%B9%E3%83%94%E3%83%AB)
 * Roto & Paint
 * DOF
     * [YouTube：Simulating Physically Accurate Depth of Field in Nuke](https://www.youtube.com/watch?v=Rv7L6M8f2lk)
@@ -807,14 +837,18 @@ etc.
 * CG Composite
     * CGのポストエフェクト
     * [3d total : Nuke 使用、複雑な影の合成（データダウンロード/ ※英語ムービー）](https://3dtotal.jp/tutorials/29166/)
+* Deep Composite
     * [fxguide The art of deep compositing](https://www.fxguide.com/fxfeatured/the-art-of-deep-compositing/)
+* Stereo Composite：立体視
 
-## カラーグレーディング(DI: Digital )
+# カラーグレーディング(DI: Digital )
 - カラーコレクション、カラーグレーディング
 
 
 ### プライマリ
 ### セカンダリ
+
+# MA
 
 ## マスタリング
 
@@ -853,6 +887,7 @@ VFXカラーパイプライン一例
 * 色順応
 * 明所視、暗所視
 * 恒常性
+    * 人によって違う色に見える **あの服** で有名に
 * 条件等色：メタメリズム(metamerism)
 
 ### CIE-XYZ表色系：色の定量化
@@ -863,6 +898,7 @@ VFXカラーパイプライン一例
     * 等色関数
 * CIE-XYZ色空間
 * xy色度図
+    * [関連：VFXツールで色度図をプロットしてみる](https://yamagishi-2bit.blogspot.com/2022/03/color-management-vfx-vfx.html)
 * 標準イルミナント
 * 物体の色
 * 光源の色
@@ -873,6 +909,7 @@ VFXカラーパイプライン一例
     * 測色用標準光源
     * 特殊な材質：蛍光、メタル
     * 演色性
+      * [写真・映像のライティングの新常識？！演色評価指数（Color Rendering Index）まとめ](https://vook.vc/n/3132)
 * 均等色空間：色差
     * [Nukeで色差を評価してみる](https://yamagishi-2bit.blogspot.com/2022/04/color-management-nuke-vfx.html)
 
@@ -928,6 +965,7 @@ VFXカラーパイプライン一例
     * intermediate-referred
     * output-referred
 * 色空間の変換
+    * [関連：色空間変換行列色々](https://yamagishi-2bit.blogspot.com/2022/03/colormanagement-colortransform-matrix.html)
 
 * LUT
     * ビューイングLUT、コンバートLUT
@@ -937,8 +975,11 @@ VFXカラーパイプライン一例
 
 
 * [OCIO : Open Color IO](https://opencolorio.org/)  
-    * [toruのブログ：OpenColorIO の Config ファイル作成](https://trev16.hatenablog.com/entry/2019/04/14/193845)
+  * General
     * [すあまの備忘録：OCIOとACESの知っている範囲メモ](https://godofsuama.hatenablog.com/entry/2020/09/24/100000)
+  * Config
+    * [toruのブログ：OpenColorIO の Config ファイル作成](https://trev16.hatenablog.com/entry/2019/04/14/193845)
+    
     * Free Config
       * Nuke Default
       * SPI-VFX
@@ -979,10 +1020,11 @@ VFXカラーパイプライン一例
     * [Pixar USD](https://graphics.pixar.com/usd/release/index.html)
     * [Pixar OpenTimeIO](https://github.com/PixarAnimationStudios/OpenTimelineIO)
     * [OpenImageIO](https://sites.google.com/site/openimageio/home)
-
-
+    * OpenSubdiv
+      * [Pixar OpenSubdiv(英語)](https://graphics.pixar.com/opensubdiv/docs/intro.html)
+      * [ピクサーのOpenSubdivほか、サブディビジョンサーフェス技術の系譜を探る](https://cgworld.jp/feature/201511-tremdsofsubdiv.html)
 ## パスコンテキスト
-* システムと仕様
+* 仕様とシステム
 * ID、コード（識別子）
 * 環境変数とパスコンテキスト
 * 各ツールの環境変数
@@ -1050,8 +1092,8 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
   - USD - Plugin
     - [Maya USD Plugin GitHub](https://github.com/Autodesk/maya-usd)
     - MayaにUSDのIOとステージやレイヤーなどのUSD標準機能を実装する。
-  - USD - Biofrost : [公式：Reference](https://help.autodesk.com/view/MAYAUL/2023/ENU/?guid=Bifrost_MayaPlugin_bifrost_usd_in_maya_html)
-  - [Maya 2023 Biofrost USD Getting Started](https://yamagishi-2bit.blogspot.com/2022/05/maya-biofrost-usd-getting-started-usd.html)
+  - USD - Bifrost : [公式：Reference](https://help.autodesk.com/view/MAYAUL/2023/ENU/?guid=Bifrost_MayaPlugin_bifrost_usd_in_maya_html)
+  - [Maya 2023 Bifrost USD Getting Started](https://yamagishi-2bit.blogspot.com/2022/05/maya-biofrost-usd-getting-started-usd.html)
 * Houdini(Solaris)
 * Max
 * Nuke
@@ -1074,7 +1116,7 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
     * ShotGrid Client Review
     * ShotGrid Create
     * ShotGrid RV
-    * [FTrak：cineSync](https://www.ftrack.com/en/cinesync)
+    * [FTrack：cineSync](https://www.ftrack.com/en/cinesync)
     * Frame.io
     * Blackmagic Cloud(?)
     * Dropbox
@@ -1101,10 +1143,13 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 
     など
 
-## VFXツール
+### VFXツール
+- Maya
+    - [Daikin:最新Mayaワークグループ設定について](https://www.comtec.daikin.co.jp/DC/UsersNotes/Ritaro/tutorial/maya_04/)
 - Houdini
     - [FX HACK：Houdini Workflowについて](http://fxnomemo.blogspot.com/2021/04/houdini-workflow.html)
-
+- Nuke
+    - [関連：Nuke 環境構築まとめ](https://yamagishi-2bit.blogspot.com/2019/02/nuke_6.html)
 
 # テクニカル：
 ## 参考
@@ -1147,6 +1192,7 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 * GUIプログラム
     * Qt
     * MVCフレームワーク
+      * [MVC、本当にわかってますか？](https://qiita.com/tshinsay/items/5b1724baf32b8b5113c2)
 
 ### Tips
 - [試行回数の増やし方 2021 年度版 - Increasing number of attempts ver. 2021](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021)
@@ -1201,7 +1247,7 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 - Solaris(Houdini: Stage - LOP)
 
 ## Render
-### PassTracer
+### PathTracer
 - [Arnold](https://vook.vc/n/4456)
     - MtoA、HtoA、KtoA
 - Redshift
@@ -1211,7 +1257,7 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 - ProRender
 - Karma(Houdini)
 
-### Iradiance + PassTracer
+### Iradiance + PathTracer
 - V-Ray(Primaryがパストレース。Secondryにライトキャッシュなど独自のアルゴリズム)
 
 ### Scanline
@@ -1275,7 +1321,8 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 * C#
 * Rust
 * Python
-    * Modules
+    * [Python3.8から3.10で追加された標準モジュール：Python Standard Library changes in recent years(和訳)](https://yamagishi-2bit.blogspot.com/2022/05/python38310python-standard-library.html)
+    * 外部モジュールModules
         * PySide2
         * colour
         * openCV
