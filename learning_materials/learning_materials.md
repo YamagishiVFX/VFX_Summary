@@ -1,8 +1,8 @@
 ※ 暇を見て追記していけたら。
-Update v2 2022/05/28
+Update v2
 ・一部追記
 
-Updated 2022/05/23
+Updated v1 2022/05/23
 ・Nuke更新
 ・「英語」追加
 
@@ -159,7 +159,7 @@ Updated 2022/05/23
     - [増補 アニメーターズサバイバルキット（日本語版）](https://www.amazon.co.jp/dp/4766121961/ref=cm_sw_r_tw_dp_U_x_bHJwDb68TKJ31)
 
 # ライティング：
-## 書籍：
+## 書籍
 - [基礎から始める、プロのためのライティング](https://www.amazon.co.jp/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E3%80%81%E3%83%97%E3%83%AD%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-Commercial-photo-series/dp/4768301592/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=ORNZC5PVDB8Q&keywords=%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%97%E3%83%AD%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0&qid=1652403623&s=books&sprefix=%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%97%E3%83%AD%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%2Cstripbooks%2C149&sr=1-2)
     - 「光には『硬い光』『柔らかい光』の2種類がある。」という基礎的なライティングを、商品ライティングをベースに学べる本。
 
@@ -167,17 +167,23 @@ Updated 2022/05/23
 
 - [JULIUS IHLEI : Lookdev / Lighting TD / Compositor](http://julius-ihle.de/)
 
-## Web:
+## Web
 - [CG CINEMATOGRAPHY（英語）](https://chrisbrejon.com/cg-cinematography/)
     - 「CG」となっているが、**現代の映画の色に関するバイブル**、決定版と言える素晴らしいサイト。ローカライズに期待。
 - [Cheat sheet: Pro portrait lighting setups](https://www.digitalcameraworld.com/tutorials/photography-cheat-sheet-lighting-setups-for-for-professional-portraits)
     - ポートレートライティングのテンプレート集
 
 # レンダリング：
+## 書籍
 - [CG MAGIC 倉地紀子(著)](https://www.amazon.co.jp/CG-Magic-%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0-%E5%80%89%E5%9C%B0-%E7%B4%80%E5%AD%90/dp/4274066924)
     - エンジニア向け
 - [PHYSICALLY BASED RENDERING](https://www.amazon.co.jp/dp/0128006455/ref=cm_sw_r_tw_dp_U_x_WJEvDb3BSWZC0)
     - エンジニア向け
+
+## Web
+- パストレース
+  - [はじめようレイトレーシング](https://raytracing.xyz/)
+  - [はじめようレイトレーシングをPythonで写経してみた](https://yamagishi-2bit.blogspot.com/2021/12/pathtracer-python-vfx.html)
 
 # コンポジット：
 - [The Art and Science of Digital Compositing, Second Edition](https://www.amazon.co.jp/dp/0123706386/ref=cm_sw_r_tw_dp_U_x_pxEvDbMEKGYD6)

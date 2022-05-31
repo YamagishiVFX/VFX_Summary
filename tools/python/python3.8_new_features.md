@@ -1,4 +1,9 @@
-# Python Standard Library changes in recent years
+# Python3.8から3.10で追加された標準モジュール：Python Standard Library changes in recent years(和訳)
+
+翻訳：DeepL翻訳 https://www.deepl.com/translator
+
+Created v1 2022/05/28
+
 
 ## 引用:
 Python Standard Library changes in recent years
@@ -12,10 +17,12 @@ Python Standard Library changes in recent years
 ```
 $ docker run -it --rm python:3.10-alpine
 ```
-# array
-[array](https://docs.python.org/3/library/array) module provides compact typed numeric arrays. It is used much less frequently than the famous list counterpart.
 
-array.index() methods finds the value in the array and returns the index of the found element. Now it supports optional start and stop parameters, which define the search interval (3.10+):
+
+# array
+[array](https://docs.python.org/3/library/array) モジュールはコンパクトな数値配列の型付けを行います。有名なリストに比べて使用頻度は低いです。
+
+[array.index()](https://docs.python.org/3/library/array#array.array.index) メソッドは、配列内の値を検索し、見つかった要素のインデックスを返します。オプションで start と stop パラメータを指定できるようになり、検索間隔を定義できるようになりました (3.10+):
 
 ```Python
 from array import array
@@ -35,7 +42,7 @@ Contributed by: Anders Lorentsen • Zackery Spytz
 # base64
 [base64](https://docs.python.org/3/library/base64) モジュールは、Base16、Base32、Base64アルゴリズムを使ってバイナリデータをASCII文字列にエンコードするモジュールです。
 
-It received a couple of new functions: [b32hexencode()](https://docs.python.org/3/library/base64#base64.b32hexencode) and [b32hexdecode()](https://docs.python.org/3/library/base64#base64.b32hexdecode), which use an extended 32-character alphabet according to [RFC 4648](https://datatracker.ietf.org/doc/html/rfc4648.html#section-7) (3.10+):
+[b32hexencode()](https://docs.python.org/3/library/base64#base64.b32hexencode) と [b32hexdecode()](https://docs.python.org/3/library/base64#base64.b32hexdecode) は、[RFC 4648](https://datatracker.ietf.org/doc/html/rfc4648.html#section-7) (3.10+) に従って拡張された 32 文字のアルファベットを使う新しい関数です。
 
 ```Python
 import base64
@@ -269,9 +276,10 @@ Fraction("0.2").as_integer_ratio()
 
 Contributed by: Lisa Roach • Raymond Hettinger
 
-functools
-functools module is a collection of higher-order auxiliary functions. One of them is lru_cache(), which caches expensive calculations:
+# functools
+[functools](https://docs.python.org/3/library/functools) モジュールは、高次の補助関数のコレクションです。そのうちのひとつが [lru_cache()](https://docs.python.org/3/library/functools#functools.lru_cache) で、これは高価な計算をキャッシュするものです。
 
+```Python
 import functools
 import time
 
@@ -287,16 +295,24 @@ find_user("Diane")
 
 find_user("Diane")
 # blazingly fast
-Previously, it required to explicitly set the cache size. And now you can specify @lru_cache without arguments, using the default size of 128 (3.8+).
+```
+
+以前は、明示的にキャッシュサイズを設定する必要がありました。そして今回、 `@lru_cache` を引数なしで指定できるようになり、デフォルトのサイズである `128` を使用できるようになりました (3.8+) 。
+
+さらに、キャッシュのパラメータを取得できるようになりました(3.9+)。
 
 Besides, you can get the cache parameters (3.9+):
 
+```Python
 find_user.cache_parameters()
 # {'maxsize': 256, 'typed': False}
-If you don’t mind the memory usage, you can use the unlimited @cache instead of @lru_cache (3.9+).
+```
 
-New @cached_property decorator caches the calculated object property (3.8+):
+メモリ使用量を気にしないのであれば、`@lru_cache` の代わりに無制限の `@cache` を使うこともできます (3.9 以上)。
 
+新しい [@cached_property](https://docs.python.org/3/library/functools#functools.cached_property) デコレーターは、計算されたオブジェクトプロパティをキャッシュします (3.8+) 。
+
+``` Python
 import functools
 import statistics
 
@@ -315,8 +331,11 @@ dataset.stdev
 
 dataset.stdev
 # blazingly fast
-And @singledispatchmethod overloads the method depending on the parameter type (3.8+):
+```
 
+また、[@singledispatchmethod](https://docs.python.org/3/library/functools#functools.singledispatchmethod) はパラメータの型によってメソッドをオーバーロードします(3.8+)。
+
+```Python
 import functools
 
 class Divider:
@@ -340,17 +359,18 @@ divider.divide(10, 2)
 
 divider.divide("hello world", 2)
 # 'hello'
+```
+
 Smells like Java to me.
 
-playground
+[playground](https://stepik.org/lesson/717024/step/9)
 
-Contributed by: Raymond Hettinger • Carl Meyer • Ethan Smith
+# glob
+[glob](https://docs.python.org/3/library/glob) globモジュールは、テンプレートにマッチするファイルやディレクトリを検索します。
 
-glob
-glob module searches for files and directories that match the template.
+[glob()](https://docs.python.org/3/library/glob#glob.glob) および [iglob()](https://docs.python.org/3/library/glob#glob.iglob) 関数の `root_dir` パラメータにより、検索対象のルートディレクトリを指定できるようになりました (3.10+):
 
-Now thanks to the root_dir parameter in glob() and iglob() functions you can specify the root directory of the search (3.10+):
-
+```Python
 import glob
 import os
 
@@ -359,17 +379,19 @@ os.getcwd()
 
 glob.glob("*", root_dir="/usr")
 # ['local', 'share', 'bin', 'lib', 'sbin', 'src']
+```
 It’s a small thing, but it’s nice.
 
-playground
+[playground](https://stepik.org/lesson/717024/step/10)
 
 Contributed by: Serhiy Storchaka
 
-graphlib
-graphlib module works with graphs. And you know what? This is a brand-new module! (3.9+)
+# graphlib
+[graphlib](https://docs.python.org/3/library/graphlib) モジュールはグラフを扱います。そして、ご存知でしょうか？これは全く新しいモジュールなのです (3.9+)
 
-So far, it has only one feature — topological graph sorting (an ordering of vertices such that for any u → v, the vertex u comes before v):
+今のところ、トポロジカルグラフソーティング（任意の `u→v` に対して、頂点 `u` が `v` の前に来るような頂点の順序付け）の機能しか持っていない。
 
+```Python
 from graphlib import TopologicalSorter
 
 graph = {"Diane": {"Bob", "Cindy"}, "Cindy": {"Alice"}, "Bob": {"Alice"}}
@@ -379,15 +401,15 @@ graph = {"Diane": {"Bob", "Cindy"}, "Cindy": {"Alice"}, "Bob": {"Alice"}}
 sorter = TopologicalSorter(graph)
 list(sorter.static_order())
 # ['Alice', 'Cindy', 'Bob', 'Diane']
-playground
+```
+[playground](https://stepik.org/lesson/717025/step/2)
 
-Contributed by: Pablo Galindo • Tim Peters • Larry Hastings
+# itertools
+[itertools](https://docs.python.org/3/library/itertools)モジュールは、メモリ効率の良いコレクション処理のための様々なイテレータを提供します。
 
-itertools
-itertools module provides a variety of iterators for memory-efficient collection processing.
+そのうちの1つは、ローリングアグリゲートを計算する [accumulate()](https://docs.python.org/3/library/itertools#itertools.accumulate) 関数です。初期値(3.8以上)を設定するinitialパラメータが使えるようになりました。
 
-One of them is the accumulate() function, which calculates the rolling aggregate. Now it allows the initial parameter, which sets the initial value (3.8+):
-
+```Python
 import itertools
 
 seq = [7, 11, 19, 42]
@@ -399,8 +421,11 @@ list(accumulator)
 accumulator = itertools.accumulate(seq, initial=100)
 list(accumulator)
 # [100, 107, 118, 137, 179]
-And the shiny new pairwise() function traverses the collection and yields pairs of consecutive elements (3.10+):
+```
 
+そして、ピカピカの新しい [pairwise()](https://docs.python.org/3/library/itertools#itertools.pairwise) 関数は、コレクションを横断して、連続した要素のペアを生成します(3.10+)。
+
+```Python
 import itertools
 
 seq = [7, 11, 19, 42]
@@ -408,19 +433,20 @@ pairer = itertools.pairwise(seq)
 
 list(pairer)
 # [(7, 11), (11, 19), (19, 42)]
-playground
+```
+[playground](https://stepik.org/lesson/717025/step/3)
 
-Contributed by: Lisa Roach • Raymond Hettinger
+# math
+[math](https://docs.python.org/3/library/math)モジュールには、豊富な数学関数が含まれています。
 
-math
-math module includes an abundance of mathematical functions.
+ここには、たくさんのニュースがあります。
 
-There are a lot of news here:
+- [dist()](https://docs.python.org/3/library/math#math.dist) calculates the Euclidean distance between points (3.8+);
+- [perm()](https://docs.python.org/3/library/math#math.perm) and [comb()](https://docs.python.org/3/library/math#math.comb) count the number of permutations and combinations (3.8+);
+- [lcm()](https://docs.python.org/3/library/math#math.lcm) computes the least common multiple (3.9+);
+- [gcd()](https://docs.python.org/3/library/math#math.gcd) now computes the greatest common divisor for an arbitrary number of arguments (3.9+).
 
-dist() calculates the Euclidean distance between points (3.8+);
-perm() and comb() count the number of permutations and combinations (3.8+);
-lcm() computes the least common multiple (3.9+);
-gcd() now computes the greatest common divisor for an arbitrary number of arguments (3.9+).
+```Python
 import math
 
 math.dist((1,1), (4, 5))
@@ -437,49 +463,55 @@ math.lcm(9, 27, 60)
 
 math.gcd(9, 27, 60)
 # 3
-And prod() multiplies the sequence elements (3.8+):
+```
 
+そして、[prod()](https://docs.python.org/3/library/math#math.prod)は配列の要素(3.8+)を掛け合わせる。
+
+```Python
 import math
 
 seq = range(3, 9)
 math.prod(seq)
 # 20160
-playground
+```
+[playground](https://stepik.org/lesson/717025/step/4)
 
-Contributed by: Raymond Hettinger • Yash Aggarwal • Keller Fuchs • Serhiy Storchaka • Mark Dickinson • Ananthakrishnan • Pablo Galindo
 
-random
-random module handles random numbers.
+# random
+[random](https://docs.python.org/3/library/random) モジュールは乱数を扱います。
 
-New randbytes() method generates a random byte string (3.9+):
+新しい[randbytes()](https://docs.python.org/3/library/random#random.randbytes)メソッドはランダムなバイト列を生成します(3.9以上)。
 
+```Python
 import random
 
 random.randbytes(4)
 # b'\x8b\xd4\x8f\xc9'
-playground
+```
+[playground](https://stepik.org/lesson/717025/step/5)
 
-Contributed by: Victor Stinner
 
-shlex
-shlex module splits the string into tokens according to the Unix command line rules.
+# shlex
+[shlex](https://docs.python.org/3/library/shlex)モジュールは、Unixのコマンドラインの規則に従って文字列をトークンに分割します。
 
-And now it also joins the tokens back into the string — thanks to the join() function (3.8+):
+また、[join()](https://docs.python.org/3/library/shlex#shlex.join) 関数のおかげで、トークンを文字列に結合することもできるようになりました(3.8+)。
 
+```Python
 import shlex
 
 tokens = ["echo", "-n", "Python is awesome"]
 shlex.join(tokens)
 # "echo -n 'Python is awesome'"
-playground
+```
+[playground](https://stepik.org/lesson/717025/step/6)
 
-Contributed by: Bo Bayles
 
-shutil
-shutil module works with files and directories: copies, moves and deletes them.
+# shutil
+[shutil](https://docs.python.org/3/library/shutil) モジュールはファイルとディレクトリを扱います: それらをコピー、移動、削除します。
 
-Copying directories has now become a little more convenient — kudos to the dirs_exist_ok parameter in the copytree() function (3.8+). If it is on, the function allows the target directory to exist:
+[copytree()](https://docs.python.org/3/library/shutil#shutil.copytree) 関数 (3.8+) の dirs_exist_ok パラメータのおかげで、ディレクトリのコピーも少し便利になりました。このパラメータがオンの場合、この関数はターゲットディレクトリが存在することを許可します。
 
+```Python
 from pathlib import Path
 import shutil
 
@@ -499,19 +531,29 @@ shutil.copytree(src, dst)
 # FileExistsError: [Errno 17] File exists: '/tmp/dst'
 shutil.copytree(src, dst, dirs_exist_ok=True)
 # PosixPath('/tmp/dst')
-playground
+```
 
-Contributed by: Josh Bronson
+[playground](https://stepik.org/lesson/717025/step/7)
 
-statistics
-statistics module handles mathematical statistics. Like math, it has greatly improved in recent releases. Not scipy yet, but it’s not the kindergarten version Python had in 3.4.
 
-See for yourself:
+# statistics
+[statistics](statistics モジュールは、数学的な統計を扱います。`math` と同様に、最近のリリースで大きく改善されました。まだ `scipy` ではありませんが、Pythonが3.4で持っていた幼稚園のバージョンではありません。
 
-fmean() computes the arithmetic mean (like mean(), only faster) (3.8+);
-geometric_mean() computes the geometric mean (3.8+);
-multimode() returns the modes (the most frequent values in the dataset), even if there are multiple ones (in contrast to mode()) (3.8+);
-quantiles() splits the dataset into quantiles and returns the cut points (3.8+).
+自分の目で確かめてください。
+
+- [fmean()](https://docs.python.org/3/library/statistics#statistics.fmean) は算術平均を計算します(mean()のように、より速く) (3.8+)。
+- [geometric_mean()](https://docs.python.org/3/library/statistics#statistics.geometric_mean) は幾何平均を計算します (3.8+)。
+- [multimode()](https://docs.python.org/3/library/statistics#statistics.multimode) は，複数の値がある場合でもモード（データセット内で最も頻度の高い値）を返す (mode() とは対照的) (3.8+);
+- [quantiles()](https://docs.python.org/3/library/statistics#statistics.quantiles) は、データセットを分位数に分割し、そのカットポイントを返す (3.8+).) モジュールは、数学的な統計を扱います。数学と同様に、最近のリリースで大きく改善されました。まだscipyではありませんが、Pythonが3.4で持っていた幼稚園のバージョンではありません。
+
+自分の目で確かめてください。
+
+fmean() は算術平均を計算します(mean()のように、より速く) (3.8+)。
+geometric_mean() は幾何平均を計算します (3.8+)。
+multimode() は，複数の値がある場合でもモード（データセット内で最も頻度の高い値）を返す (mode() とは対照的) (3.8+);
+quantiles() は、データセットを分位数に分割し、そのカットポイントを返す (3.8+).
+
+```
 import statistics
 
 seq = list(range(1, 10))
@@ -529,8 +571,11 @@ statistics.multimode("python is awesome")
 
 statistics.quantiles(seq)
 # [2.5, 5.0, 7.5]
-NormalDist describes the normal distribution of a random variable (3.8+):
+```
 
+[NormalDist](https://docs.python.org/3/library/statistics#statistics.NormalDist) は、確率変数の正規分布を記述します(3.8+)。
+
+```Python
 from statistics import NormalDist
 
 birth_weights = NormalDist.from_samples([2.5, 3.1, 2.1, 2.4, 2.7, 3.5])
@@ -542,8 +587,11 @@ round(combined.mean, 1)
 
 round(combined.stdev, 1)
 # 0.5
-The module received Pearson correlation() and covariance() functions (3.10+):
+```
 
+Pearson [correlation()](https://docs.python.org/3/library/statistics#statistics.correlation) と[covariance()](https://docs.python.org/3/library/statistics#statistics.covariance) 関数が追加されました。
+
+```Python
 import statistics
 
 x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -560,8 +608,11 @@ statistics.covariance(x, x)
 
 statistics.covariance(x, y)
 # -7.5
-And even the linear_regression() calculator (3.10+):
+```
 
+そして、[linear_regression()](https://docs.python.org/3/library/statistics#statistics.linear_regression) 電卓(3.10+)。
+
+```Python
 import statistics
 
 movies_by_year = {
@@ -581,17 +632,19 @@ slope, intercept = statistics.linear_regression(x, y)
 
 year_2022 = round(slope * 2022 + intercept)
 # 697
-By the way, the statistics module is also famous for its excellent documentation. Check it out.
+```
 
-playground
+ちなみに、`statistics` モジュールは、ドキュメントが充実していることでも有名です。調べてみてください。
 
-Contributed by: Raymond Hettinger • Steven D’Aprano • Timothy Wolodzko
+[playground](https://stepik.org/lesson/717025/step/8)
 
-zoneinfo
-zoneinfo module provides information about time zones around the world. Another new module! (3.9+)
 
-Before the zoneinfo appearance, Python had a single ascetic timezone.utc time zone. Well, not anymore:
+# zoneinfo
+[zoneinfo](https://docs.python.org/3/library/zoneinfo) モジュールは、世界中のタイムゾーンの情報を提供します。もう一つの新しいモジュール! (3.9+)
 
+`zoneinfo` が登場する前、Python は単一の禁欲的な `timezone.utc` タイムゾーンを備えていました。さて、もうそうではありません。
+
+```Python
 import datetime as dt
 from zoneinfo import ZoneInfo
 
@@ -606,24 +659,29 @@ tokyo = utc.astimezone(ZoneInfo("Asia/Tokyo"))
 
 sydney = utc.astimezone(ZoneInfo("Australia/Sydney"))
 # 2022-09-14 07:00:00+10:00
-playground
+```
 
-Contributed by: Paul Ganssle
+[playground](https://stepik.org/lesson/717025/step/9)
 
-Summary
-We have reviewed as many as 17 modules contributed by 27 devs — and this is without taking into account asyncio, typing and many other lower-level ones. As you can see, the standard library is actively developing. And the new features are quite reasonable. I hope you will find the described novelties useful!
 
-I would also like to specifically thank the contributors for their amazing work:
+# Summary
+私たちは、27人の開発者から提供された17ものモジュールをレビューしました。これは、asyncioやtyping、その他多くの低レベルのものを考慮に入れていません。見ての通り、標準ライブラリは活発に開発されている。そして、新機能は非常に合理的です。私は、あなたが記述された新機能を有用と感じることを願っています!
 
-Carl Meyer for the functools.cached_property() decorator;
-Dennis Sweeney for the str.removeprefix() and str.removesuffix() methods;
-Ethan Smith for the functools.singledispatchmethod() decorator;
-Filipe Laíns for the base64.b32hexencode() and base64.b32hexdecode() functions;
-Lisa Roach for the Fraction.as_integer_ratio() method and itertools.accumulate() improvements;
-Niklas Fiekas for the int.bit_count() method;
-Pablo Galindo for the whole graphlib module and math.prod() function;
-Paul Ganssle for the whole zoneinfo module;
-Raymond Hettinger for lots of functions in the statistics module, itertools.pairwise() function, key parameter in the bisect module and his community work;
-Serhiy Storchaka and Yash Aggarwal for the combinatorics in the math module;
-Timothy Wolodzko for the covariance(), correlation(), and linear_regression() functions in the statistics module;
-Victor Stinner for the random.randbytes() method.
+また、特に貢献者の方々の素晴らしい仕事ぶりに感謝したいと思います。
+
+> We have reviewed as many as 17 modules contributed by 27 devs — and this is without taking into account asyncio, typing and many other lower-level ones. As you can see, the standard library is actively developing. And the new features are quite reasonable. I hope you will find the described novelties useful!
+> 
+> I would also like to specifically thank the contributors for their amazing work:
+
+- [Carl Meyer](https://twitter.com/carljm) for the `functools.cached_property()` decorator;
+- [Dennis Sweeney](https://github.com/sweeneyde) for the `str.removeprefix()` and `str.removesuffix()` methods;
+- [Ethan Smith](https://twitter.com/ethanhs) for the `functools.singledispatchmethod()` decorator;
+- [Filipe Laíns](https://twitter.com/missingclara) for the `base64.b32hexencode()` and `base64.b32hexdecode()` functions;
+- [Lisa Roach](https://twitter.com/lisroach) for the `Fraction.as_integer_ratio()` method and `itertools.accumulate()` improvements;
+- [Niklas Fiekas](https://twitter.com/niklasfiekas) for the `int.bit_count()` method;
+- [Pablo Galindo](https://twitter.com/pyblogsal) for the whole graphlib module and `math.prod()` function;
+- [Paul Ganssle](https://twitter.com/pganssle) for the whole `zoneinfo` module;
+- [Raymond Hettinger](https://twitter.com/raymondh) for lots of functions in the `statistics` module, `itertools.pairwise()` function, `key` parameter in the `bisect` module and his community work;
+- [Serhiy Storchaka](https://twitter.com/serhiystorchaka) and [Yash Aggarwal](https://github.com/FR4NKESTI3N) for the combinatorics in the `math` module;
+- [Timothy Wolodzko](https://twitter.com/tymwol) for the `covariance()`, `correlation()`, and `linear_regression()` functions in the `statistics` module;
+- [Victor Stinner](https://twitter.com/victorstinner) for the `random.randbytes()` method.
