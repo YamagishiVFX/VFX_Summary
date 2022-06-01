@@ -4,7 +4,7 @@
 - GitHub : https://github.com/YamagishiVFX/VFX_Summary
 
 ### 更新：
-v14
+v14 2022/06/01
 - 一部編集、追記
 - GitHubにデータアップロード
 
@@ -27,7 +27,7 @@ v10 2022/05/25
 ----
 ## VFXワークフロー一例：
 
-![image](https://i.gyazo.com/5c7430e3c5acd6f176751292c317bb3b.png)
+![image](https://i.gyazo.com/7204b9d464a8a4b805df2ef27d962da7.png)
 
  
 - **実写系VFXワークフロー**をなんとなく体系的に列挙してみた。
@@ -567,6 +567,7 @@ etc.
         * [fxguid：The Definitive Weta Digital Guide to IBL](https://www.fxguide.com/fxfeatured/the-definitive-weta-digital-guide-to-ibl/)
           * あのWeta DigitalによるIBL撮影ガイドライン。神資料。
     * フォトグラメトリ用ドローン撮影ガイドライン
+        * [ドローンの登録制度が義務化](https://vook.vc/n/4372)
 * 3D制作ガイドライン
     * 3Dアセット制作ガイドライン
       * FX用アセット制作ガイドライン
@@ -947,6 +948,7 @@ VFXカラーパイプライン一例
 * [Spectral Imaging in Production：Course Notes Siggraph 2021](https://jo.dreggn.org/home/2021_spectral_imaging.pdf)
     * レンダリング、LEDウォールなどの光（スペクトル）に関する発表。
     * Weta Manuka他
+* [劇場版「SHIROBAKO」の「色で勝負」の意味を考察する](https://idomizu.dev/archives/7085)
 
 ### 色再現
 * カラーエンコード、デコード
@@ -1211,6 +1213,8 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 
 ## 3D
 - Maya
+  - 開発
+    - [PySide2 : MainWindowの取得](https://yamagishi-2bit.blogspot.com/2022/06/maya-python3mainwindow-pyside2.html)
 - Houdini
 - Blender
 - 3dsMax
