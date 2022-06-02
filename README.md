@@ -4,25 +4,13 @@
 - GitHub : https://github.com/YamagishiVFX/VFX_Summary
 
 ### 更新：
+v15 2022/06/02
+- ACES Workflow編集
+
 v14 2022/06/01
 - 一部編集、追記
 - GitHubにデータアップロード
-
-v13 2022/05/28
-- 「USD」編集
-- 一部編集、追記
-
-v12 2022/05/26
-- 一部修正加筆
-
-v11 2022/05/25
-- 映像史編集
-- 一部修正、加筆
-
-v10 2022/05/25
-- 「カラーパイプライン」追記
-- 3DCG編集
-- [「VFX制作に便利なツール」](https://vook.vc/n/4525)を追加
+- [3D制作ガイドライン](https://vook.vc/n/4554) 追加
 
 ----
 ## VFXワークフロー一例：
@@ -230,7 +218,7 @@ v10 2022/05/25
             * ヒノキオ(2004)
               * ファイナルファンタジーに関わったVFXスタッフが多く参加している。VFXは今は解散してしまったカシオエンターテイメント。VFXのクォリティは非常に高い。
             * 海猿2
-              * おそらく国内のVFXでレイトレースが本格的にが作られた作品
+              * おそらく国内の映画VFXでレイトレースが本格的に使われた作品
             * 三丁目の夕日
             * 宇宙兄弟
               * 恐らく国内で初めてシーンリニアワークフローでVFXが作られた作品
@@ -360,7 +348,7 @@ v10 2022/05/25
             </div>
 * アルゴリズム
 
-    Houdini、Nuke、Fuison、Blender(Geometry Node) など、一部ツールではワークフローの実装がしやすいツールではアルゴリズムを使ってワークフローが組みやすくアルゴリズムを知っておくと便利な事があるらしい。
+    Houdini、Nuke、Fuison、Blender(Geometry Node) など、一部ツールではワークフローの実装がしやすいツールではアルゴリズムを知っておくと便利な事があるらしい。
 
 
   * [50分で学ぶアルゴリズム / Algorithms in 50 minutes](https://speakerdeck.com/e869120/algorithms-in-50-minutes)
@@ -397,6 +385,9 @@ v10 2022/05/25
   * [imai / Fly feat.79,中村佳穂](https://youtu.be/iQi3aMQXip8)
 * ジェネラティブアート
     * [ジェネラティブアートを始めよう](https://note.com/p5aholic/n/n853fd1d137d1)
+* 多重露光
+* ティルトシフト
+
 etc.
 
 # 標準化：
@@ -568,15 +559,16 @@ etc.
           * あのWeta DigitalによるIBL撮影ガイドライン。神資料。
     * フォトグラメトリ用ドローン撮影ガイドライン
         * [ドローンの登録制度が義務化](https://vook.vc/n/4372)
-* 3D制作ガイドライン
+* [3D制作ガイドライン](https://vook.vc/n/4554)
     * 3Dアセット制作ガイドライン
       * FX用アセット制作ガイドライン
       * CFX用アセット制作ガイドライン
 * 2D制作ガイドライン
     * [Nukepedia: Compositing Practices 101](http://www.nukepedia.com/written-tutorials/compositing-practices-101/)
     * Nukeコンポジットガイドライン
-        * [Nukepedia: 10 tips to optimising Nuke and creating efficient workflows](https://yamagishi-vfx.growi.cloud/6268934f4b35dab22537e98f)
+        * [Nukepedia: 10 tips to optimising Nuke and creating efficient workflows](http://www.nukepedia.com/written-tutorials/10-tips-to-optimising-nuke-and-creating-efficient-workflows/)
         * Nukeコンポジットガイドライン v6 Tatsuya Yamagishi
+        * [コンポジゴク：NUKEのスピードを速くするためのTips集](http://compojigoku.blog.fc2.com/blog-entry-43.html)
 * コーディングガイドライン
     * Pythonコーディングガイドライン
         * ZEN、PEP8
@@ -686,6 +678,7 @@ etc.
 * 動画ファイル
     * 型、ビット
     * フレームレート
+    * ドロップフレーム、ノンドロップフレーム
     * フォーマット形式
     * 可逆圧縮、非可逆圧縮
     * インターレース
@@ -997,12 +990,14 @@ VFXカラーパイプライン一例
 * ACES Workflow：シーンリニアワークフローの標準化
     * Reference
       * [ACES CENTRAL](https://community.acescentral.com/)
-      * [Netflix - YouTube：DaVinci ResolveにおけるACESの設定方法（日本語字幕あり）](https://www.youtube.com/watch?v=u9Rvm5xiuhk)
+      * [ACES TECHNICAL DOCUMENTATION](https://acescentral.com/aces-documentation-copy/)
     * ACES Workflow
       * ACES Colorspace
       * RICD ACES
       * IDT、ACES、LMT、RRT、ODT
     * CDL
+    * 各ツールにおけるACES Workflow
+      * [Netflix - YouTube：DaVinci ResolveにおけるACESの設定方法（日本語字幕あり）](https://www.youtube.com/watch?v=u9Rvm5xiuhk)
 
 # VFXパイプライン：
 ## Introduction
@@ -1025,6 +1020,7 @@ VFXカラーパイプライン一例
     * OpenSubdiv
       * [Pixar OpenSubdiv(英語)](https://graphics.pixar.com/opensubdiv/docs/intro.html)
       * [ピクサーのOpenSubdivほか、サブディビジョンサーフェス技術の系譜を探る](https://cgworld.jp/feature/201511-tremdsofsubdiv.html)
+
 ## パスコンテキスト
 * 仕様とシステム
 * ID、コード（識別子）
@@ -1050,6 +1046,9 @@ VFXカラーパイプライン一例
 * Alembic
 * Katanaシーングラフ
 * USDワークフロー
+
+引用：[cgwiki Usd AssetGuide](https://www.tokeru.com/cgwiki/index.php?title=UsdAssetGuide)
+![image](https://i.gyazo.com/fce75be9ed6a2fde266b65fe67df19a9.png)
 
 ## USD
 ### リファレンス
