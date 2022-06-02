@@ -4,10 +4,14 @@
 - GitHub : https://github.com/YamagishiVFX/VFX_Summary
 
 ### 更新：
-v15 2022/06/02
+v1.2.0
+- 一部編集
+- `Nukeコンポジット概要` 追加
+
+v1.1.0 2022/06/02
 - ACES Workflow編集
 
-v14 2022/06/01
+v1.0.0 2022/06/01
 - 一部編集、追記
 - GitHubにデータアップロード
 - [3D制作ガイドライン](https://vook.vc/n/4554) 追加
@@ -140,10 +144,16 @@ v14 2022/06/01
 * [アメリカの美大で学んだこと05:「絵がうまい」より大切なこと](https://note.com/kenta_design/n/n54064d88a7de)
 
 ### 部署と役職、責任やスキル
-* [Screen Skills : Visual effects (VFX)](https://www.screenskills.com/job-profiles/browse/visual-effects-vfx/)
-* 海外のVFXプロダクションの求人はこの辺を明示しているので、海外の求人を見てみるのも参考になります。
-    * [Ftrack : Pipeline TD](https://www.ftrack.com/en/2021/09/what-is-a-pipeline-td.html)
-    * [【ACADEMY】テクニカルアーティストとして仕事を得るには](https://jp.gamesindustry.biz/article/2205/22052601/)
+- 問題解決能力
+- どんな環境でも安定した結果を出せる
+- 限界まで自分を追い込めるかどうかが成長のために必須
+  - （引用：魔改造はなぜ成功するのか 著・倉野信次）
+
+- 参考
+  * [Screen Skills : Visual effects (VFX)](https://www.screenskills.com/job-profiles/browse/visual-effects-vfx/)
+  * 海外のVFXプロダクションの求人はこの辺を明示しているので、海外の求人を見てみるのも参考になります。
+      * [Ftrack : Pipeline TD](https://www.ftrack.com/en/2021/09/what-is-a-pipeline-td.html)
+      * [【ACADEMY】テクニカルアーティストとして仕事を得るには](https://jp.gamesindustry.biz/article/2205/22052601/)
 
 ### 学習：学問
 * [文部科学省：系・分野・分科・細目表](https://www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu4/toushin/attach/1337808.htm)
@@ -313,7 +323,7 @@ v14 2022/06/01
     * モーションブラー
     * レンズディストーション
     *  [入射瞳：Entrance pupil](https://www.cybernet.co.jp/optical/course/word/n01.html)
-       *   
+    * ローリングシャッター 
 
 * 情報処理（コンピュータ、データ）
     * データサイエンス
@@ -344,7 +354,7 @@ v14 2022/06/01
 * 物理
     * 単位：
         * 明るさの基本単位 = カンデラ：cd
-            <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;"> SI単位なのに学校では習わない。7つのSI基本単位の中の明るさの（心理）物理量。色、光に特に関りが強い僕たちは知っておかないとダメだと思われる奴。これを基準にした組単位にニット、ルクス、ルーメンなどがある。これも個人的には「テストに出ます」レベルのもの。特にライティングに関わる人は知っておいて損はない知識だと思う。
+            <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;"> SI単位なのに学校では習わない。7つのSI基本単位のうちの光の明るさの（心理）物理量。色、光に特に関りが強い僕たちは名前は知っておいた方がいいと思われる。これを基準にした組単位にニット、ルクス、ルーメンなどがある。特にライティングのライトの単位などで出てくることもある。
             </div>
 * アルゴリズム
 
@@ -650,6 +660,7 @@ etc.
 
 
 # CG：
+
 ## CG検定
 ## 画像処理
 * 画像
@@ -681,13 +692,14 @@ etc.
     * ドロップフレーム、ノンドロップフレーム
     * フォーマット形式
     * 可逆圧縮、非可逆圧縮
-    * インターレース
+    * インターレース、プログレッシブ
     * カラースペース
     * オーディオ
     * アスペクト比
 
 ## 3DCG
 ### モデリング
+* [パソコン工房：3Dモデリングをはじめる前に知っておきたい基礎知識](https://www.pc-koubou.jp/magazine/63968)
 * サーフェイス（ポリゴン）モデル、ソリッドモデル
 * 頂点、エッジ、面
 * 法線
@@ -844,7 +856,7 @@ etc.
 
 # MA
 
-## マスタリング
+# マスタリング（完パケ）
 
 # カラーパイプライン：
 VFXカラーパイプライン一例
@@ -920,9 +932,11 @@ VFXカラーパイプライン一例
     こういう所に出てくる
 
     DaVinci: Color > Chromatic Adaptation : 
+    
     ![image](https://i.gyazo.com/17720f89148c3e6ef894a11d4981fe53.png)
 
     Nuke : ColorSpace ノード
+
     ![image](https://i.gyazo.com/0392bb56c6d5b38c180a5f953cea26d1.png)
 
 * [Colour Science for Python](https://www.colour-science.org/)
@@ -1239,10 +1253,6 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 - Mocha
 - SilhouetteFx
 
-## Game Engine
-- Unreal Engine
-- Unity
-
 ## LookDev
 - [Gaffer](https://www.gafferhq.org/)
 - Katana
@@ -1285,6 +1295,11 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 - Premier Pro
 - DaVinci Resolve
 - Blender
+
+## Game Engine
+- Unreal Engine
+- Unity
+    - [Enemies – real-time cinematic teaser | Unity](https://www.youtube.com/watch?v=eXYUNrgqWUU&t=3s)
 
 ## Management
 - Excel
