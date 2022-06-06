@@ -4,7 +4,14 @@
 - GitHub : https://github.com/YamagishiVFX/VFX_Summary
 
 ### 更新：
-v1.2.0
+v1.3.0
+- 一部編集
+- 「映像史」を別ページに
+- 「学習資料」更新
+- 「VFX制作ガイドライン概要」を作成
+- 「3DCG制作ガイドライン」v1b1
+
+v1.2.0 2022/06/03
 - 一部編集
 - `Nukeコンポジット概要` 追加
 
@@ -93,10 +100,15 @@ v1.0.0 2022/06/01
         * オープンソース（oss）の著作権
     * パブリックドメイン
         * [『くまのプーさん』のホラー映画が制作進行中。原作童話のパブリックドメイン入りにより幅広い利用が可能に](https://www.famitsu.com/news/202205/26262708.html)
+    * News:
+        * [著作物、二次利用しやすく デジタル需要増、法改正で代理許可](https://www.nikkei.com/article/DGKKZO61392450T00C22A6MM8000/)
+
 * 商標登録
     * 著作権と商標登録
     * [「ギコ事件」「のまネコ騒動」商標登録問題](https://www.youtube.com/watch?v=XG9PrbBt4SM)
     * 「ゆっくり茶番劇」商標権取得問題
+* 参考：
+    * [文化庁：インターネット上の海賊版による著作権侵害対策情報ポータルサイト](https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/index.html)
 
 
 ## 会社員
@@ -146,8 +158,8 @@ v1.0.0 2022/06/01
 ### 部署と役職、責任やスキル
 - 問題解決能力
 - どんな環境でも安定した結果を出せる
-- 限界まで自分を追い込めるかどうかが成長のために必須
-  - （引用：魔改造はなぜ成功するのか 著・倉野信次）
+- 限界まで自分を追い込めるかどうかが成長のために必須（引用：魔改造はなぜ成功するのか 著・倉野信次）
+  - 過去を振り返ると「大きく成長できた」と実感できるのは「仕事の納期」なども含めてギリギリまで追い込んだ、追い込まれたときが多い気がする。（あくまでも限外であり、心身共に壊れてしまったら本末転倒）
 
 - 参考
   * [Screen Skills : Visual effects (VFX)](https://www.screenskills.com/job-profiles/browse/visual-effects-vfx/)
@@ -189,53 +201,26 @@ v1.0.0 2022/06/01
     * [YouTube:【ざっくり解説】デザインの歴史 -01- 「デザインの誕生」](https://www.youtube.com/watch?v=wYCdiXczXBI)
 * 映像史
     * 映画史
-        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-        「観ておいた方がいい」とかそういう類のものではない。今なぜそうなっているのか？という背景を知ったりするもの。過去に既に通り過ぎたものかもしれないし、新しい視点で振り返る事で新たな発見や可能性に気付けるものもあるかも。将棋の世界では、過去に使えないと廃れた戦法が、コンピュータの発達などによりあたらしい視点で見返してみたら復活した戦法がいくつもあったり。 打合せなどで名前が挙がる事があるので、観る必要が出た時に観る程度でいいと思う。<br>「VFXの勉強になるか？」という点においても、何かしら学ぶところはあるとは思うが返答が難しい。
-        </div>
-
         * 一般
             * https://ja.wikipedia.org/wiki/%E6%98%A0%E7%94%BB%E5%8F%B2
+            * [『ストーリー・オブ・フィルム 111の映画旅行』予告編](https://www.youtube.com/watch?v=fYiJyCbcyWE)
         * CFX
             * スターウォーズ：ILM
             * ゴーストバスターズ：ILM
         * VFX
             * [VFX movies : VFX Shots Race 「代表的な映画のVFXショット数、制作費、世界興行収入」](http://www.upcomingvfxmovies.com/svfx-shots-race/)
                 * 国内に感しては「総製作費」は表に出てくるものの、実際の「制作費」が表に出てくることはほとんど無いため実態がほとんど分かっていない。
-            * トロン（1982）
+            * トロン
             * ターミネーター2
-              * T2凄い良かったですよね。特に最後に親指を立てながら溶鉱炉に沈んでいくシーンは涙なしにはみられませんでした。
             * ジュラシックパーク
             * ベイブ
-              * 動物と言えばリズム&ヒューズ・スタジオ（R&H）を確立させる。
             * タイタニック: Digital Domain
             * スターウォーズ EP1 : ILM
             * マトリックス
-            * ファイナルファンタジー(2001)
             * ロード・オブ・ザ・リング：Weta　Digital
             * アバター(2009)
-            * 第9地区 (2009)
-              * 製作費は3千万ドル。ハリウッドのVFXを使った作品としては非常に少ないがVFXの質はとても高い。
-            * ライフ・オブ・パイ (2012)
-              * リズム&ヒューズ・スタジオ（R&H）の倒産。VFX業界に大きな波紋を投じた。
             * アベンジャーズシリーズ
 
-        * 国内
-            * ゴジラ
-            * 幻魔大戦(1983)
-            * さよならジュピター(1984)
-            * NIGHT HEAD(1994)
-            * ジュブナイル(2000)
-            * ヒノキオ(2004)
-              * ファイナルファンタジーに関わったVFXスタッフが多く参加している。VFXは今は解散してしまったカシオエンターテイメント。VFXのクォリティは非常に高い。
-            * 海猿2
-              * おそらく国内の映画VFXでレイトレースが本格的に使われた作品
-            * 三丁目の夕日
-            * 宇宙兄弟
-              * 恐らく国内で初めてシーンリニアワークフローでVFXが作られた作品
-            * ソニック：Marza
-            * いぬやしき：Digital Frontire
-            * シン・ゴジラ：白組
-            * シン・ウルトラマン：白組
         * タイトルバック
             * ソウル・バス
             * カイル・クーパー
@@ -247,37 +232,17 @@ v1.0.0 2022/06/01
         
         今はこのころの表現をもっと整理したり、以下にリアルタイムに落とし込めるか？という面が盛んな気がする。
         </div>
-
-        * [How David Fincher's Early Commercial Work Paved the Way for His Hollywood Success](https://collider.com/david-fincher-commercials-explained/)
-          * この時代を駆け抜けたレジェンドどいえばデビッドフィンチャー。完全にオーパーツ。
-          * Digital Domainによる[「2003 - ADIDAS」 ](https://vimeo.com/239309998?embedded=true&source=video_title&owner=48066928)は伝説。
-          * [2003 - ADIDAS : VFXブレイクダウン](https://vimeo.com/239310831?embedded=true&source=vimeo_logo&owner=48066928)
-        * [Honda Acord (2003)](http://hiace-magazine.com/premiumblog/7150/)
-          * CGは使っていないとのこと
-        * [Sony BRAVIA - Balls(2008)](https://www.youtube.com/watch?v=-zOrV-5vh1A)
-          * 公式の動画ないかな・・・？
-        * [Sony BRAVIA - Paint(2008)](https://www.youtube.com/watch?v=wwO-wo892pI)
-          * 公式の動画ないかな・・・？
-        * [Embassy Automotive Reel](https://theembassyvfx.com/portfolio/the-embassy-automotive-reel) 
-          * 車の変形ギミックと言えばEmbassy。色々有名なものがあった。どこかにまとめ動画とかあるかな？
-          * [Citroen C4 - Alive With Technology(2008)](https://vimeo.com/1431427) Directed by Neill Blomkamp
-        * [Disneyland® Paris - The little duck（2018)](https://www.youtube.com/watch?v=G4qMqbL9ACo&t=3s)
     * MV
-        * マイコージャクソン
-        * ニルバーナーのあれ
-        * ジャミロクワイのあれ
-        * 宇多田ヒカルのあれ
-        * ニコニコ動画
-          * MMD他
+        * マイケルジャクソン
+        * ニコ動
+        * TikTok
     * Gameムービー（リアルタイムの台頭によりオワコンかも・・・）
-        * 鉄拳
-        * 風のクロノア
-        * FF7 (1997)
-        * アーマードコア
-        * モンスターハンター
-            * 僕の知る限り恐らく国内で初めてACESワークフローで作られたゲームムービー
-        * スカイリム
-        * アサシンクリード
+        - スクエアエニックス：ビジュアルワークス
+        - Blizzard
+        - フロムソフトウェア
+        - Digic Pictures
+        - 白組
+
     * インターネット
         * YouTube、TikTok
         * ニコ動
@@ -287,6 +252,7 @@ v1.0.0 2022/06/01
     * カンヌ国際映画祭
     * 日本アカデミー賞
     * VFX-JAPANアワード
+    * CGWROLD
 * 色彩
     * [CG CINEMATOGRAPHY](https://chrisbrejon.com/cg-cinematography/)
       * バイブル。とにかくこれを見ておけば問題ない。
@@ -410,6 +376,7 @@ etc.
 - CIE / ISO
 - IEEE
 - ITU / ITU-R
+
 ### 米国標準
 - SMPTE
 - DCI
@@ -516,6 +483,37 @@ etc.
 
 ![](https://i.gyazo.com/573440615be069e8a4c91832088156d5.png)
 
+## ガイドライン
+* ロケハンガイドライン
+    * 記録するものなど
+* オンセットガイドライン
+    * 撮影立ち合い：服装、持ち物など。記録するもの。
+        * 養生テープ
+        * メジャー
+        * カラーチャート
+        * スマホ、iPad、ノートPC等
+    * CGリファレンス撮影ガイドライン
+        * カラーチャート、ミラーボール、グレーボール
+    * HDRI撮影ガイドライン
+        * [fxguid：The Definitive Weta Digital Guide to IBL](https://www.fxguide.com/fxfeatured/the-definitive-weta-digital-guide-to-ibl/)
+          * あのWeta DigitalによるIBL撮影ガイドライン。神資料。
+    * フォトグラメトリ用ドローン撮影ガイドライン
+        * [ドローンの登録制度が義務化](https://vook.vc/n/4372)
+* [3D制作ガイドライン](https://vook.vc/n/4554)
+    * 3Dアセット制作ガイドライン
+      * FX用アセット制作ガイドライン
+      * CFX用アセット制作ガイドライン
+* 2D制作ガイドライン
+    * [Nukepedia: Compositing Practices 101](http://www.nukepedia.com/written-tutorials/compositing-practices-101/)
+    * Nukeコンポジットガイドライン
+        * [Nukepedia: 10 tips to optimising Nuke and creating efficient workflows](http://www.nukepedia.com/written-tutorials/10-tips-to-optimising-nuke-and-creating-efficient-workflows/)
+        * Nukeコンポジットガイドライン v6 Tatsuya Yamagishi
+        * [コンポジゴク：NUKEのスピードを速くするためのTips集](http://compojigoku.blog.fc2.com/blog-entry-43.html)
+* コーディングガイドライン
+    * Pythonコーディングガイドライン
+        * ZEN、PEP8
+        * Googleスタイル、numpyスタイル
+
 ## 仕様書
 ### VFXの代表的な仕様の項目
 
@@ -553,36 +551,6 @@ etc.
         * ショット仕様書
     * パイプライン仕様書
 
-## ガイドライン
-* ロケハンガイドライン
-    * 記録するものなど
-* オンセットガイドライン
-    * 撮影立ち合い：服装、持ち物など。記録するもの。
-        * 養生テープ
-        * メジャー
-        * カラーチャート
-        * スマホ、iPad、ノートPC等
-    * CGリファレンス撮影ガイドライン
-        * カラーチャート、ミラーボール、グレーボール
-    * HDRI撮影ガイドライン
-        * [fxguid：The Definitive Weta Digital Guide to IBL](https://www.fxguide.com/fxfeatured/the-definitive-weta-digital-guide-to-ibl/)
-          * あのWeta DigitalによるIBL撮影ガイドライン。神資料。
-    * フォトグラメトリ用ドローン撮影ガイドライン
-        * [ドローンの登録制度が義務化](https://vook.vc/n/4372)
-* [3D制作ガイドライン](https://vook.vc/n/4554)
-    * 3Dアセット制作ガイドライン
-      * FX用アセット制作ガイドライン
-      * CFX用アセット制作ガイドライン
-* 2D制作ガイドライン
-    * [Nukepedia: Compositing Practices 101](http://www.nukepedia.com/written-tutorials/compositing-practices-101/)
-    * Nukeコンポジットガイドライン
-        * [Nukepedia: 10 tips to optimising Nuke and creating efficient workflows](http://www.nukepedia.com/written-tutorials/10-tips-to-optimising-nuke-and-creating-efficient-workflows/)
-        * Nukeコンポジットガイドライン v6 Tatsuya Yamagishi
-        * [コンポジゴク：NUKEのスピードを速くするためのTips集](http://compojigoku.blog.fc2.com/blog-entry-43.html)
-* コーディングガイドライン
-    * Pythonコーディングガイドライン
-        * ZEN、PEP8
-        * Googleスタイル、numpyスタイル
 
 ## 制作進行
 * Excelベースのアセット、ショットリスト
@@ -653,10 +621,17 @@ etc.
 * ニュートラルグレード
 * アンディストーション、リディストーション 
 
-### グレーディング
-* プライマリ
-    * CDL
-* セカンダリ
+# カラーグレーディング(DI: Digital Intermediate )
+- カラーコレクション、カラーグレーディング
+
+### プライマリ
+- CDL
+
+### セカンダリ
+
+# MA
+
+# マスタリング（完パケ）
 
 
 # CG：
@@ -696,6 +671,8 @@ etc.
     * カラースペース
     * オーディオ
     * アスペクト比
+      * イメージアスペクト比
+      * ピクセルアクセプト火
 
 ## 3DCG
 ### モデリング
@@ -786,6 +763,7 @@ etc.
 * リギング
     * IK、FK
 * CFX
+  * [Automation of Creature FX in a Small Studio Pipeline | Bacon X | FMX HIVE 2022](https://www.youtube.com/watch?v=FDR8wLbBPYc)
 * ルックデブ
 
 ## ショットワーク
@@ -847,16 +825,7 @@ etc.
     * [fxguide The art of deep compositing](https://www.fxguide.com/fxfeatured/the-art-of-deep-compositing/)
 * Stereo Composite：立体視
 
-# カラーグレーディング(DI: Digital )
-- カラーコレクション、カラーグレーディング
 
-
-### プライマリ
-### セカンダリ
-
-# MA
-
-# マスタリング（完パケ）
 
 # カラーパイプライン：
 VFXカラーパイプライン一例
@@ -1199,9 +1168,20 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
         * [画像処理100本ノック!!](https://github.com/yoyoyo-yo/Gasyori100knock)
         
     * Processing
+
 ### Git
 * Gitの使い方
+  * インストール
 * GitHubの使い方
+  * リポジトリ作成
+  * 初期設定
+    * ライセンス
+    * 言語
+  * README.md
+  * .gitignore
+  * clone
+  * push
+  * relase
 
 ### Gui
 * GUIプログラム
@@ -1216,7 +1196,7 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 # VFX制作ツール：
 ## 2D
 - Nuke
-    - 概要
+    - [概要](https://vook.vc/n/4466)
     - [NUKE系リンク集](https://yamagishi-2bit.blogspot.com/2018/10/nuke.html)
 - Fusion
 - Flame

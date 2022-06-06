@@ -1,8 +1,10 @@
 ※ 暇を見て追記していけたら。
-Update v2
-・一部追記
 
-Updated v1 2022/05/23
+Update v2
+- 一部追記
+- フォトグラメトリ追加
+
+Created v1 2022/05/23
 ・Nuke更新
 ・「英語」追加
 
@@ -19,6 +21,7 @@ Updated v1 2022/05/23
 # 一般
 ## 書籍
 - [Amazon 著作権トラブル解決のバイブル! クリエイターのための権利の本](https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E8%A7%A3%E6%B1%BA%E3%81%AE%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%A8%A9%E5%88%A9%E3%81%AE%E6%9C%AC-%E5%A4%A7%E4%B8%B2-%E8%82%87/dp/4862464149/ref=asc_df_4862464149/?tag=jpgo-22&linkCode=df0&hvadid=295706574430&hvpos=&hvnetw=g&hvrand=12430377618035851659&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009308&hvtargid=pla-523780200416&psc=1&th=1&psc=1)
+- [魔改造はなぜ成功するのか](https://www.amazon.co.jp/%E9%AD%94%E6%94%B9%E9%80%A0%E3%81%AF%E3%81%AA%E3%81%9C%E6%88%90%E5%8A%9F%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B-%E8%A7%92%E5%B7%9D%E6%9B%B8%E5%BA%97%E5%8D%98%E8%A1%8C%E6%9C%AC-%E5%80%89%E9%87%8E-%E4%BF%A1%E6%AC%A1-ebook/dp/B09MCGTRYY/ref=sr_1_1?adgrpid=129037133165&gclid=CjwKCAjwv-GUBhAzEiwASUMm4izeMnCYl4N7TxdS5LeyLBzEZKl5YPRW0sZAWd16YIVQa2Ha_PIisRoC6FMQAvD_BwE&hvadid=566793531981&hvdev=c&hvlocphy=1009298&hvnetw=g&hvqmt=e&hvrand=16115271407850449936&hvtargid=kwd-1617440601265&hydadcr=23326_13465604&jp-ad-ap=0&keywords=%E9%AD%94+%E6%94%B9%E9%80%A0+%E3%81%AF+%E3%81%AA%E3%81%9C+%E6%88%90%E5%8A%9F+%E3%81%99%E3%82%8B+%E3%81%AE%E3%81%8B&qid=1654226026&sr=8-1)
 
 ## Web
 - [国会図書館で5月19日から新サービス。「絶版で入手困難」の資料など約153万点がネットで閲覧可能に](https://www.huffingtonpost.jp/entry/story_jp_62848e48e4b0c2dce6567c81)
@@ -152,6 +155,14 @@ Updated v1 2022/05/23
     - タイトルに「Maya」と入っているが、VFX制作のアセットワークフローを体系的に日本語で学べる良書。
 - [スカルプターのための美術解剖学 -Anatomy For Sculptors日本語版](https://www.amazon.co.jp/%E3%82%B9%E3%82%AB%E3%83%AB%E3%83%97%E3%82%BF%E3%83%BC%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E7%BE%8E%E8%A1%93%E8%A7%A3%E5%89%96%E5%AD%A6-Anatomy-Sculptors%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88-%E3%82%A2%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%83%BB%E3%82%B6%E3%83%AA%E3%83%B3%E3%82%B9/dp/4862463606/ref=pd_vtp_sccl_3_2/358-1417297-9165908?pd_rd_w=lN09S&pf_rd_p=cbb45385-7b99-44b7-a528-bff5ddaa153d&pf_rd_r=ERV5XZBGMM8ZSD3V2JSF&pd_rd_r=4657ab06-dd6d-4ef7-8b92-9443b2114261&pd_rd_wg=9is59&pd_rd_i=4862463606&psc=1)
 - [エレンベルガーの動物解剖学](https://www.amazon.co.jp/dp/4862464610/)
+
+# フォトグラメトリ
+* [Full Photogrammetry Guide for 3D Artists](https://80.lv/articles/full-photogrammetry-guide-for-3d-artists/)
+* [GNOMON:COMPLETE PHOTOGRAMMETRY WORKFLOW](https://www.thegnomonworkshop.com/tutorials/complete-photogrammetry-workflow)
+* [写真測量：WebODMを試す（決定版！）](https://sk-lb.net/photogrammetry-webodm/)
+* [iPhoneで始める3Dスキャン生活](https://note.com/iwamah1/n/n5df9a5daaae4)
+* [Reality Captureの使い方とコツ【Photogrammetry】](https://note.com/syu_ya23m/n/n293b242269fc)
+- [iPhoneのLiDAR機能で“スマホ版平板測量”を実現！ プロノハーツが「pronoScan2CAD」を発売](https://ken-it.world/it/2022/06/plan-surveying-by-iphone.html)
 
 # アニメーション：
 - [The Animator's Survival Kit](https://www.amazon.co.jp/dp/086547897X/ref=cm_sw_r_tw_dp_U_x_doFvDbDKK643S) 
