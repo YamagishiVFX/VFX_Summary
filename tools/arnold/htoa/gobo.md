@@ -1,4 +1,22 @@
 # HtoA : Gobo Filter
+Updated : 2022/06/08
+
+Created : 2022/05/09 Tatsuya Yamagishi
+
+
+## 公式マニュアル
+- [HtoA : Gobo](https://docs.arnoldrenderer.com/display/A5AFHUG/Gobo)
+
+## 環境
+- Windows 10
+- Houdini 19.0.589
+- HtoA 6.1.1.0
+
+## 設定方法
+- Atmosphereの設定
+- Gobo Filterの設定
+  - Light Type: Spot のみ対応？
+
 
 ## 使い方
 
@@ -28,3 +46,7 @@
 
 ### Alligator
 ![image](https://i.gyazo.com/6138320eea560f8777438224549fc0d1.png)
+
+# 関連：
+- [山岸VFXワークフロー概要](https://vook.vc/n/4447)
+- [HtoAまとめ](https://vook.vc/n/4456)

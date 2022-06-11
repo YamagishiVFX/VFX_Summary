@@ -1,12 +1,15 @@
 ※ 暇を見て追記していけたら。
 
-Update v2
+Update v2 2022/06/10
 - 一部追記
-- フォトグラメトリ追加
+- `フォトグラメトリ` 追加
+- `社会` 追加
+- `プロジェクトマネジメント` 更新
+- `PySide` 更新
 
 Created v1 2022/05/23
-・Nuke更新
-・「英語」追加
+- Nuke更新
+- 「英語」追加
 
 # VFXに関する情報：
 - [fxguid](https://www.fxguide.com/)
@@ -74,6 +77,11 @@ Created v1 2022/05/23
 - [岡崎体育 『MUSIC VIDEO』Music Video](https://www.youtube.com/watch?v=fTwAz1JC4yI)
     - 5分で分かるミュージックビデオ演出の概要説明。素晴らしいです。
 
+# 社会
+## Web
+- [「諸外国における共通番号制度を活用した行政手続
+のワンスオンリーに関する取組等の調査研究」](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f8a3c045-6c82-4abf-b0bf-cf18bdb79c38/bd85d67f/20220512_policies_mynumber_summary_01.pdf)
+
 # ビジネス：
 ## 書籍
 - [メイキング・オブ・ピクサー―創造力をつくった人々](https://www.amazon.co.jp/dp/4152090162/ref=cm_sw_r_tw_dp_U_x_YIEvDb3AZEEAN)
@@ -90,6 +98,8 @@ Created v1 2022/05/23
 ## Web
 - [backlog：サル先生のプロジェクト管理入門](https://backlog.com/ja/project-management-guide/)
 - [SQUARE ENIX OPEN CONFERENCE ゲーム開発プロジェクトマネジメント講座](http://www.jp.square-enix.com/tech/openconference/library/2011/dldata/PM/PM.pdf)
+- [プロダクトマネージャーの必須スキルである「言語化」を活かす
+最強の言語化ツール・Notionを活用した情報の一元管理法](https://logmi.jp/tech/articles/326535)
 
 # ポスプロ：
 ## 書籍
@@ -119,6 +129,10 @@ Created v1 2022/05/23
 # 絵画
 ## 書籍
 - [スコット・ロバートソンのHow to Draw -オブジェクトに構造を与え、実現可能なモデルとして描く方法](https://www.amazon.co.jp/dp/486246226X/)
+
+# コンピュータ・情報処理
+## Web
+
 
 # CG：
 ## 書籍
@@ -256,6 +270,10 @@ Created v1 2022/05/23
 - [「Python ゼロからはじめるプログラミング」](https://mitani.cs.tsukuba.ac.jp/book_support/python/)
 - [画像処理100本ノック!!](https://github.com/yoyoyo-yo/Gasyori100knock)
 
+# Qt(PyQt, PySide)
+## Web
+- [関連：VFXのためのPySideまとめ](https://yamagishi-2bit.blogspot.com/2021/09/pyside.html)
+
 # ShotGrid：
 ## 書籍
 - [ShotGridなんもわからん](https://techbookfest.org/product/6573080874844160?productVariantID=6342797915324416)
@@ -271,6 +289,7 @@ Created v1 2022/05/23
 
 # Unreal Engine：
 - alweiさんのスライド資料： https://www.docswell.com/user/alwei
+- [Qiita:UE5のLumenに関するTips](https://qiita.com/EGJ-Nori_Shinoyama/items/b6ac447162afb134fbc4)
 
 # 関連：
 - [実写系VFXワークフロー概要](https://vook.vc/n/4447)

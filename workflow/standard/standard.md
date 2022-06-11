@@ -1,12 +1,9 @@
 Updated: 
 2022/06/03
 - DIC サイト追加
-
+- 一部修正加筆
 
 2022/05/26
-・ 一部追加修正
-
-2022/05/25
 ・ 一部追加修正
 
 ※ 専門家による監修を受けていません。色々違ってたらごめんなさい。
@@ -24,7 +21,7 @@ Updated:
 - テクノロジーの発展に「標準化」はとても大切。国内のVFXでもそのような動きが出てくることが期待される。（僕が知らないだけでそういった動きはあるのかも）
 
 # 仕様書、ガイドライン：
-- 仕様書作成の際、引用は標準規格からされる事が多い。
+- 仕様書作成の際、引用は **標準規格** からされる事が多い。
 - 仕様を理解するためには、関連する標準規格の理解が必要となる。
 - 標準規格の入手は標準化団体などのサイトからPDFなどを購入する。
     - 値段に関しては、大体数千円くらいの印象だが、数万円するものまで値段は様々な印象がある。
@@ -54,33 +51,35 @@ Updated:
 6. 3D仕様
 
 ### 作品仕様
-作品仕様によって作品の品質が定義される
+作品仕様によって **作品の品質** が定義される
 
 ### 撮影仕様
-納品の品質に耐えうる撮影仕様を定義する
+**納品の品質** に耐えうる撮影仕様を定義する
 
 ### ポスプロ仕様
-撮影の品質を損なわない、各部門間とのデータのやり取りなどを定義
+撮影素材などの品質を損なわない、各部門間とのデータのやり取りなどを定義
 
 ### VFX仕様
-納品の品質を損なわず、撮影素材を編集しても出来るだけ劣化させない仕様を定義する
+VFX作業の際に納品の品質を出来るだけ損なわない基準を設定する。
 
 
 # 世界標準：
 ## ISO ： International Organization for Standardization
-* 国際標準化機構。: https://www.iso.org/home.html
+**国際標準化機構:** https://www.iso.org/home.html
 
 規格界のトップ。グローバルスタンダード
 
-**ISO 11664-1:2007(E)/CIE S 014-1/E:2006. Colorimetry – part 1: CIE standard colorimetric observers.**
-
+### 主な標準規格
 - CIE-XYZ 1931 標準観測者
-
-**ISO 11664-2:2007(E)/CIE S 014-2/E:2006. .Colorimetry – part 2: CIE standard illuminants.**
+    
+    ISO 11664-1:2007(E)/CIE S 014-1/E:2006. Colorimetry – part 1: CIE standard colorimetric observers.
 - CIE-XYZ 1931 標準イルミナント
-
-**ISO 11664-3:2012(E)/CIE S 014-3/E:2011. Colorimetry – Part 3: CIE Tristimulus Values.**
+    
+    ISO 11664-2:2007(E)/CIE S 014-2/E:2006. .Colorimetry – part 2: CIE standard illuminants.
 - CIE-XYZ 1931 等色関数
+    
+    ISO 11664-3:2012(E)/CIE S 014-3/E:2011. Colorimetry – Part 3: CIE Tristimulus Values.
+
 
 
 ## IEC : International Electrotechnical Commission
@@ -96,20 +95,19 @@ Updated:
 ## CIE フランス語：Commission internationale de l'éclairage
 国際照明委員会 : https://cie.co.at/
 
-現代の色彩工学の基盤と言っても過言でない。ISOとずぶずぶ。
-
-
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-光の照明の分野での科学、技術及び工芸に関するあらゆる事項について国際的討議を行い、標準と測定の手法を開発し、国際規格及び各国の工業規格の作成に指針を与え、規格・報告書などを出版すると共に他の国際団体との連携・交流をはかることを目的とした国際的な非営利の団体である。 引用:JIS Z 8113 照明用語
+光の照明の分野での科学、技術及び工芸に関するあらゆる事項について国際的討議を行い、標準と測定の手法を開発し、国際規格及び各国の工業規格の作成に指針を与え、規格・報告書などを出版すると共に他の国際団体との連携・交流をはかることを目的とした国際的な非営利の団体である。 引用 : JIS Z 8113 照明用語
 </div>
+
+現代の色彩工学の基盤と言っても過言でない。ISOとずぶずぶ。色をRGBの３つの値の定量で扱えるのはCIE-XYZ表色系によるもの。CIE-XYZ表色系は2031年で誕生100年になる。
+
+`D65` などの「CIE標準イルミナント」「CIE標準光源」などもCIEの標準化によるもの
+
 
 ### 主な標準規格
 * ISO 11664-1:2007(E)/CIE S 014-1/E:2006. Colorimetry：CIE-XYZ 1931
 
 
-### Tips
-- 色をRGBの３つの値の定量で扱えるのはCIE-XYZ表色系によるもの。CIE-XYZ表色系は2031年で誕生100年になる。
-- `D65` などの「CIE標準イルミナント」「CIE標準光源」などもCIEの標準化によるもの
 
 ## IEEE：The Institute of Electrical and Electronics Engineers, Inc.  
 アメリカ合衆国に本部がある、電気・電子技術者の学会。パソコン周辺機器の規格とかで名前を聞くような？
@@ -132,9 +130,9 @@ ITU : https://www.soumu.go.jp/g-ict/international_organization/itu/pdf_contents.
 * ITU-R Recommendation BT.2100（HDR TV）
 
 ### Tips:
-- etc. のように略すと IUT-R Rec. BT.709 となる。
+- etc. のように略すと ITU-R Rec. BT.709 となる。
 - 日本語では ITU-R 勧告 BT.709 と呼ばれたりしている。
-- 一般的には **通称** が使われることが多いため、引用を明記しなければならない **技術資料以外** では、名称に関しては「正解」「間違っている」などはあまり気にしなくていいのでは？というのが個人的な見解。Rec.709 、BT.709、ITU-R BT.709 などは **全て同じもの** を指していると思われる。
+- 引用を明記しなければならない **技術資料以外** では、一般的に **通称** が使われることが多く、名称に関しては「正解」「間違っている」などはあまり気にしなくていいのでは？というのが個人的な見解。Rec.709 、BT.709、ITU-R BT.709 などは **全て同じもの** を指していると思われる。
 
 # 米国：
 ## SMPTE : Society of Motion Picture and Television Engineers
@@ -163,17 +161,19 @@ ITU : https://www.soumu.go.jp/g-ict/international_organization/itu/pdf_contents.
 ACES
 "Specification S-2008-001", Academy of Motion Picture Arts and Sciences (A.M.P.A.S.), 2008.
 
-
+- ACES CENTRAL https://acescentral.com/aces-documentation-copy/
+- ACES GitHub https://github.com/ampas/aces-dev
 
 ## VES : Visual Effects Society  
 視覚効果協会：https://www.visualeffectssociety.com/
 
-### VFX Reference Platform（こちらはどちらかというとガイドライン）
+**VFX Reference Platform（こちらはどちらかというとガイドライン）**
 - [VFX Reference Platform](https://vfxplatform.com/)
 - [Blender : VFX Reference Platform](https://code.blender.org/2022/02/vfx-reference-platform/)  
     - VFX Reference Platformに対するBlenderの考え
 
-### VES Transfer Specifications
+**VES Transfer Specifications**
+
 https://vestransferspec.org/
 
 VFX用素材に関する仕様のガイドライン
@@ -195,7 +195,8 @@ ISOの日本ローカライズ。ISOに対応したJIS規格が大体あると�
 ### 代表的な規格：
 - JIS Q 21500：2018(ISO 21500：2012) プロジェクトマネジメントの手引
 
-### 引用 JIS Z 8105 色に関する用語：「輝度、明度、明るさ」
+**引用:** JIS Z 8105 色に関する用語：「輝度、明度、明るさ」
+
 ![image](https://i.gyazo.com/692f55619e48482801e6f7834bc6e0c5.png)
 
 ## JLMA：Japan Lighting Manufacturers Association
@@ -223,7 +224,7 @@ https://color-science.jp/gakkaishi/backnumber/
 
 * SI基本単位
     * 長さはm。重さはkgなど
-    * 明るさの基本単位、光度：Cd（カンデラ）は唯一心理物量
+    * 明るさの基本単位、光度：Cd（カンデラ）は7つのSI単位の中で唯一の心理物量。
       * 他の単位が「物理量」を扱っているのに対し「明るさ」は人の感じる心理的なもの。測光量とも言われる。
 
 * SI組立単位
@@ -246,6 +247,7 @@ https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%9A%9B%E5%8D%98%E4%BD%8D%E7%B3%BB
 ## ディスプレイ
 - IEC 61966-2-1：sRGB
 - DCI-P3
+- Apple P3
 
 ## カラーマネジメント
 - JIS Z 8105 色に関する用語
