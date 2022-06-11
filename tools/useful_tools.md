@@ -1,6 +1,9 @@
-v2 2022/05/25 CG Sup Tatsuya YAMAGISHI
+v3
+- DJV 編集
 
-v1 2022/05/23 CG Sup Tatsuya YAMAGISHI
+v2 2022/05/25 CG Sup. Tatsuya YAMAGISHI
+
+v1 2022/05/23 CG Sup. Tatsuya YAMAGISHI
 
 * 業界標準ではなく、あくまでの **個人的なもの** です。
 * **記事の内容に一切の責任を持ちません。**
@@ -59,7 +62,7 @@ OSSの2Dペイントツール。無料でペイントツールを入手したい
 # DJV
 https://darbyjohnston.github.io/DJV/
 
-ossの連番を含む動画再生プレイヤー。代表的なLUTファイルやexrにも対応。Windwos、Mac、Linuxのクロスプラットフォーム。
+ossの連番を含む動画再生プレイヤー。代表的なLUTファイルやOCIO、exrにも対応。Windwos、Mac、Linuxのクロスプラットフォーム。
 
 
 # Adobe Bridge：
