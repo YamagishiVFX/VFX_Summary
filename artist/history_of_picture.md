@@ -1,5 +1,8 @@
 # 映像史
-Created v1.0.0 a1 2022/06/03 Tatsuya Yamagishi
+Updated v1.1.0 CG Sup. Tatsuya YAMAGISHI
+- `VFX Breakdown` 追加
+
+Created v1.0.0 2022/06/03 Tatsuya Yamagishi
 
 - 専門家の監修を受けていないため、色々間違っている可能性があります。
 - **記事の内容に一切の責任を持ちません。**
@@ -133,3 +136,8 @@ Created v1.0.0 a1 2022/06/03 Tatsuya Yamagishi
 # インターネット
 * YouTube、TikTok
 * ニコ動
+
+
+# VFX Breakdown
+
+- [2022/06/12 Ghostbusters Afterlife- Dr. Egon Spengler VFX Breakdown by MPC](https://www.vfxexpress.com/ghostbusters-afterlife-dr-egon-spengler-vfx-breakdown-by-mpc/)

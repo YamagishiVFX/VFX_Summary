@@ -6,6 +6,9 @@
 - LinkedIn : https://www.linkedin.com/in/tatsuya-yamagishi/
 
 ### 更新：
+v1.5.0 2022/06/20
+- 一部編集
+
 v1.4.0 2022/06/11
 - 一部編集
 
@@ -16,9 +19,7 @@ v1.3.0 2022/06/06
 - 「VFX制作ガイドライン概要」を作成
 - 「3DCG制作ガイドライン」v1b1
 
-v1.2.0 2022/06/03
-- 一部編集
-- `Nukeコンポジット概要` 追加
+
 ----
 ## VFXワークフロー一例：
 
@@ -188,13 +189,17 @@ v1.2.0 2022/06/03
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <b>Note:</b> 英語が出来ない僕が言うのもアレだが、映像技術の殆どは海外で生まれ、様々な試行錯誤がされ、その中で特に有効なものがソフトウェア（もしくはプラグイン等）に実装され一般化される。そのような背景があり、映像の技術資料のほとんど（あくまで個人的な体感で9割くらい）は英語の資料になっている。日本語に翻訳されているものはその中の1割あるかどうか？だったり、翻訳されていても間違っていたり、独自解釈であったりすることが多い（僕の記事も独自解釈）。試行錯誤された知見が国内に入ってくることもほとんどない状況となっている。
 <br><br>
-アーティストは、VFX制作ツールが同じであれば英語を覚える事で仕事の選択幅も圧倒的に広がる。労働者側が待遇などを改善しようと思った場合、既存の環境を変える努力をするより環境を変えてしまった方が楽な場合も少なくない。近年は全世界共通で労働力が不足している傾向があり、労働者側は仕事を選びやすい世の中になっているのではないか？と思われる。グローバルな人材確保が活発になってきており、リクルーターを雇える企業は求人という受け身ではなく積極的にコンタクトを取ってくる。そのような状況で、日本はどのように国際的な競争力を維持し、高度なスキルを持つ人材の流出に対応していくのか？課題は多いと感じている。日本だから関係ないという段階では既に無くなっているというのが個人の認識。グローバルな視点での判断なども重要になってきていると感じている。
+アーティストは、英語を覚える事で学習リソースも仕事の選択幅も圧倒的に広がる。労働者側が待遇などを改善しようと思った場合、既存の環境を変える努力をするより環境を変えてしまった方が楽な場合も少なくない。近年は全世界共通で労働力が不足している傾向があり、労働者側は仕事を選びやすい世の中になっているのではないか？と思われる。グローバルな人材確保が活発になってきており、リクルーターを雇える企業は求人という受け身ではなく積極的にコンタクトを取ってくる。そのような状況で、日本はどのように国際的な競争力を維持し、高度なスキルを持つ人材の流出に対応していくのか？課題は多いと感じている。日本だから関係ないという段階では既に無くなっているというのが個人の認識。グローバルな視点での判断なども重要になってきていると感じている。
 <br><br>
 そのような背景があるため、個人的には積極的に英語の勉強を勧めたい。（海外の方が良いという意味ではなく、出来るだけ早い段階に言語の壁を取り除いた方がいいと思う）
 </div>
 
 * クリエイティブ概論
 * 美術史
+    * 海外
+    * 日本
+      * 浮世絵
+        * 歌川国芳
 * デザイン史
     * [YouTube:【ざっくり解説】デザインの歴史 -01- 「デザインの誕生」](https://www.youtube.com/watch?v=wYCdiXczXBI)
 * 映像史
@@ -265,6 +270,8 @@ v1.2.0 2022/06/03
     * インターネット
         * YouTube、TikTok
         * ニコ動
+    * VFX Breakdown
+
 * 賞
     * アカデミー賞
     * サンダンス映画祭
@@ -325,12 +332,13 @@ v1.2.0 2022/06/03
     * 三角関数
         * sin、cos、tan
         * asin、acos、atan
-    * 基本的なベクトル計算
-        * [VFXアーティストのためのベクトルの計算](https://yamagishi-2bit.blogspot.com/2020/09/blog-post.html?q=%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB)
-    * 基本的な行列計算
-        * [文部科学省：行列入門](https://www.mext.go.jp/content/20210525-mxt_kyoiku01-000009442_1_1.pdf)
-    * 四元数：クォータニオン
-        * [YouTube : Unity Japan【Unity道場 博多スペシャル 2017】クォータニオン完全マスター](https://www.youtube.com/watch?v=uKWLPU8gfIY)
+    * 線形代数
+        * 基本的なベクトル計算
+            * [VFXアーティストのためのベクトルの計算](https://yamagishi-2bit.blogspot.com/2020/09/blog-post.html?q=%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB)
+        * 基本的な行列計算
+            * [文部科学省：行列入門](https://www.mext.go.jp/content/20210525-mxt_kyoiku01-000009442_1_1.pdf)
+        * 四元数：クォータニオン
+            * [YouTube : Unity Japan【Unity道場 博多スペシャル 2017】クォータニオン完全マスター](https://www.youtube.com/watch?v=uKWLPU8gfIY)
     * 資料など
         * [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-book)
         * [数学を知ればゲーム制作の幅が広がるUnity社エンジニアが解説するグラフの意味とゲームへの応用](https://logmi.jp/tech/articles/326426)
@@ -453,7 +461,8 @@ etc.
   
 ### バージョニング
 * セマンティックバージョニング
-
+* ビルド番号
+* 日付
 
 # プロジェクトマネジメント：
 * 参考資料：
@@ -733,10 +742,6 @@ etc.
     * 参考        
         * レイトレースの仕組みについては[「VRay：Antialiasing for Shading Effects」](https://docs.chaos.com/display/CWVRAY3MAYA/Antialiasing+for+Shading+Effects)が詳しい
         * ノイズを除去するためのワークフローは[「Arnold：Removing Noise Workflow」](https://docs.arnoldrenderer.com/display/A5ARP/Removing+Noise+Workflow)が参考になる。各レンダラー毎にレイの呼び方とかは異なるが、現在のパストレーサーはほとんど同じような仕組みだと思う。
-    * プログラム
-        * レイトレース（パストレース）を理解したい場合、自分でプログラムしてみるのが一番
-            * [はじめようレイトレーシング](https://raytracing.xyz/)
-            * [関連：はじめようレイトレーシングをPythonで写経](https://yamagishi-2bit.blogspot.com/2021/12/httpsraytracing.html)
     * 物理ベース
         * [Physically Based Lighting at Pixar](https://graphics.pixar.com/library/PhysicallyBasedLighting/paper.pdf)
         * [metasequoia4 : 物理ベースレンダリング(1) 概要とglTF](https://www.metaseq.net/jp/archives/2172/)
@@ -748,6 +753,10 @@ etc.
     * 拡張レイトレース：エリアシャドウ、グロッシネス
     * パストレース：グローバルイルミネーション
     * フォトンマッピング
+    * テクニカル
+        * レイトレース（パストレース）を理解したい場合、自分でプログラムしてみるのが一番
+            * [はじめようレイトレーシング](https://raytracing.xyz/)
+            * [関連：はじめようレイトレーシングをPythonで写経](https://yamagishi-2bit.blogspot.com/2021/12/httpsraytracing.html)
 * スペクトルレンダリング
     * [Spectral Imaging in Production：Course Notes Siggraph 2021](https://jo.dreggn.org/home/2021_spectral_imaging.pdf)
     * [memoRANDOM ：スペクト羅うレンダリング](https://rayspace.xyz/CG/contents/spectral_rendering/)
@@ -990,16 +999,25 @@ VFXカラーパイプライン一例
 * リニアワークフロー
 * シーンリニアワークフロー
     * シーンリニア  
-    * [トーンマッピング](https://yamagishi-2bit.blogspot.com/2013/10/tonemapping.html)
+    * [トーンマッピング(カラーレンダリング)](https://yamagishi-2bit.blogspot.com/2013/10/tonemapping.html)
+    * LogToLin
+      * [関連：VFXワークフロー LogToLin](https://yamagishi-2bit.blogspot.com/2013/08/vfx-logtolin.html)
+      * フィルタ
+      * キーイング
+      * CGComposite
 * ACES Workflow：シーンリニアワークフローの標準化
     * Reference
       * [ACES CENTRAL](https://community.acescentral.com/)
       * [ACES TECHNICAL DOCUMENTATION](https://acescentral.com/aces-documentation-copy/)
     * ACES Workflow
       * ACES Colorspace
-      * RICD ACES
+        * AP0, AP1
       * IDT、ACES、LMT、RRT、ODT
-    * CDL
+      * RICD ACES
+      * CDL、DCTL
+      * AMF, ACES metadata File
+
+
     * 各ツールにおけるACES Workflow
       * [Netflix - YouTube：DaVinci ResolveにおけるACESの設定方法（日本語字幕あり）](https://www.youtube.com/watch?v=u9Rvm5xiuhk)
 
@@ -1029,6 +1047,10 @@ VFXカラーパイプライン一例
       * [Pixar OpenSubdiv(英語)](https://graphics.pixar.com/opensubdiv/docs/intro.html)
       * [ピクサーのOpenSubdivほか、サブディビジョンサーフェス技術の系譜を探る](https://cgworld.jp/feature/201511-tremdsofsubdiv.html)
     * OpenFX
+
+## 環境
+* 環境変数
+  * 各ツールの環境変数
 
 ## パスコンテキスト
 * 仕様とシステム
@@ -1130,6 +1152,7 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
     * Frame.io
     * Blackmagic Cloud(?)
     * Dropbox
+    * [DNEG Announces xStudio Free Open Source Review Application](https://www.awn.com/news/dneg-announces-xstudio-free-open-source-review-application)
 * ディスパッチャー
     * Deadline
 
@@ -1161,14 +1184,9 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 - Nuke
     - [関連：Nuke 環境構築まとめ](https://yamagishi-2bit.blogspot.com/2019/02/nuke_6.html)
 
-# テクニカル：
-## 参考
-* [Disney Research](https://www.disneyresearch.com/)
-* Siggraph
-* CEDEC
-* [DF Talk](https://dftalk.jp/)
-    * Degital Frontierさんのテック系の情報発信
-## システム
+
+
+# システム
 * OS
     * Linux
     * Mac
@@ -1177,13 +1195,29 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
 
 * サーバー
 
-## クラウド
+### クラウド
 * AWS
+    * [Amazon Nimble Studio クラウドでのコンテンツ作成を加速](https://aws.amazon.com/jp/nimble-studio/)
+    * [Amazon Nimble Studio – クラウドでクリエイティブスタジオを構築する](https://aws.amazon.com/jp/blogs/news/amazon-nimble-studio-build-a-creative-studio-in-the-cloud/)
+
+# テクニカル：
+## 参考
+* [Disney Research](https://www.disneyresearch.com/)
+* Siggraph
+* CEDEC
+* [DF Talk](https://dftalk.jp/)
+    * Degital Frontierさんのテック系の情報発信
 
 ## 開発
+- ビルド / デプロイ / リリース / ロールバック
+  - [ビルド / デプロイ / リリース / ロールバック の 意味や違い(Web)](https://garafu.blogspot.com/2018/11/build-deploy-release-rollback.html)
+  - [デプロイ / リリース 手法 まとめ](https://garafu.blogspot.com/2018/11/release-strategy.html)
+
 ### 開発環境
 * Linuxベース
     * [YouTube : プログラマーを目指す未経験者はWindowsとMacはどちらを使うべきか](https://youtu.be/m1R-lqZs1zs)
+
+
 ### プログラム
 * プログラム言語
     * C++
@@ -1192,8 +1226,17 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
             * クラウド上で動くGoogleのColaboratoryというサービスもある。
         * [python初心者用 基礎演習100本ノック](https://zenn.dev/pell/books/a84eed48e73a6e)
         * [画像処理100本ノック!!](https://github.com/yoyoyo-yo/Gasyori100knock)
+        * トップスで環境変えれる
         
     * Processing
+
+### Gui
+* GUIプログラム
+    * Qt
+    * MVCフレームワーク
+      * [MVC、本当にわかってますか？](https://qiita.com/tshinsay/items/5b1724baf32b8b5113c2)
+
+
 
 ### Git
 * Gitの使い方
@@ -1208,12 +1251,6 @@ Houdini(Solaris:LOP)以外は、Import/Exportの実装のみにとどまる状�
   * clone
   * push
   * relase
-
-### Gui
-* GUIプログラム
-    * Qt
-    * MVCフレームワーク
-      * [MVC、本当にわかってますか？](https://qiita.com/tshinsay/items/5b1724baf32b8b5113c2)
 
 ### Tips
 - [試行回数の増やし方 2021 年度版 - Increasing number of attempts ver. 2021](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021)
