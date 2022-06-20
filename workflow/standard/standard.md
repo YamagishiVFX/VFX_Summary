@@ -1,4 +1,7 @@
 Updated: 
+2022/
+- 一部修正
+
 2022/06/03
 - DIC サイト追加
 - 一部修正加筆
@@ -9,6 +12,8 @@ Updated:
 ※ 専門家による監修を受けていません。色々違ってたらごめんなさい。
 ※ 記事の内容に一切の責任を持ちません。
 
+
+
 # 仕様と学問：
 ## 背景
 「標準化」が生まれた背景は次の動画などで少し触れられている。
@@ -17,8 +22,10 @@ Updated:
 
 ## 概要
 - 「法律書」のようなイメージを持つ人もいるが、体系的にまとめられた手法や学問の共有による生産性向上などが目的。
-- 理解するために **専門分野の一定レベルの学問や技術（テクノロジー）が必要** となる事がある。
+- 理解するために **専門分野の一定レベルの学問や技術（テクノロジー）が必要** となる事が多い。
 - テクノロジーの発展に「標準化」はとても大切。国内のVFXでもそのような動きが出てくることが期待される。（僕が知らないだけでそういった動きはあるのかも）
+
+
 
 # 仕様書、ガイドライン：
 - 仕様書作成の際、引用は **標準規格** からされる事が多い。
@@ -31,10 +38,6 @@ Updated:
 
 ![](https://d1i9y8i5xa5nlc.cloudfront.net/uploads/user_image/image/32588/resize_img_aa748a7d-5744-4926-be62-af6bbb3ba64c.png)
 
-# 映像に関する標準ヒエラルキーと標準化の流れ：
-違ってるかも。あまり自信はない。
-
-![](https://d1i9y8i5xa5nlc.cloudfront.net/uploads/user_image/image/32587/resize_img_958b370d-f230-44d7-855e-ee446f319290.png)
 
 
 # 映像作品の仕様書が決定する順番の例
@@ -45,6 +48,7 @@ Updated:
 3. ポスプロ仕様（含カラーマネジメント仕様）
 
 ---- ＜以下、外部と共有されることはあまりない＞ ----
+※ 主にVFX作業者、協力会社等で共有される。
 
 4. VFX仕様
 5. 2D仕様
@@ -61,6 +65,14 @@ Updated:
 
 ### VFX仕様
 VFX作業の際に納品の品質を出来るだけ損なわない基準を設定する。
+
+
+
+# 映像に関する標準ヒエラルキーと標準化の流れ：
+違ってるかも。あまり自信はない。
+
+![](https://d1i9y8i5xa5nlc.cloudfront.net/uploads/user_image/image/32587/resize_img_958b370d-f230-44d7-855e-ee446f319290.png)
+
 
 
 # 世界標準：
@@ -134,6 +146,8 @@ ITU : https://www.soumu.go.jp/g-ict/international_organization/itu/pdf_contents.
 - 日本語では ITU-R 勧告 BT.709 と呼ばれたりしている。
 - 引用を明記しなければならない **技術資料以外** では、一般的に **通称** が使われることが多く、名称に関しては「正解」「間違っている」などはあまり気にしなくていいのでは？というのが個人的な見解。Rec.709 、BT.709、ITU-R BT.709 などは **全て同じもの** を指していると思われる。
 
+
+
 # 米国：
 ## SMPTE : Society of Motion Picture and Television Engineers
 米国映画テレビ技術者協会：https://www.smpte.org/
@@ -174,9 +188,8 @@ ACES
 
 **VES Transfer Specifications**
 
-https://vestransferspec.org/
+- VFX用素材に関する仕様のガイドライン https://vestransferspec.org/
 
-VFX用素材に関する仕様のガイドライン
 
 ### 関連
 [ETC - VFX Image Sequence Naming](https://www.etcentric.org/)
@@ -185,6 +198,8 @@ VFX用素材に関する仕様のガイドライン
 - 標準化の団体ではないが、ここにCGに関する論文が沢山提出されている。その中のいくつかはツールの機能として実装され一般化する事もある。
 
     - [Cinematic Color Motion-Picture Color Management Siggraph 2012 Course](https://cinematiccolor.org/)
+
+
 
 # 日本：
 ## JIS：Japanese Industrial Standards
@@ -219,6 +234,9 @@ https://color-science.jp/
 
 https://color-science.jp/gakkaishi/backnumber/
 
+
+
+
 # 国際単位系 = SI単位系：
 天気予報で使われていた「ミリバール」が「ヘクトパスカル」なったり、様々な単位に影響を与えている。
 
@@ -234,7 +252,9 @@ https://color-science.jp/gakkaishi/backnumber/
 https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%9A%9B%E5%8D%98%E4%BD%8D%E7%B3%BB
 
 
-# VFXに関する主な標準規格：
+
+
+# VFXに関する主な標準規格まとめ：
 ## 映像
 - ITU-R Recommendation BT.709（SD TV）
 - ITU-R Recommendation BT.1886（HD TV）
@@ -244,7 +264,7 @@ https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%9A%9B%E5%8D%98%E4%BD%8D%E7%B3%BB
 ## 映像（映画）制作ワークフロー
 - ST 2065-1:2012 - SMPTE Standard - Academy Color Encoding Specification (ACES)
 
-## ディスプレイ
+## ディスプレイ等
 - IEC 61966-2-1：sRGB
 - DCI-P3
 - Apple P3
